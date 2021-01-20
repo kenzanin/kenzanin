@@ -1,4 +1,8 @@
-site_name: solderen
+site_name: Solderen
 
 theme:
         name: material
+
+pages:
+- Arduino:
+        - 'Pengenalan': 'arduino/pengenalan.md'
