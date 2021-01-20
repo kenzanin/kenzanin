@@ -1,8 +1,40 @@
 site_name: Solderen
 
 theme:
-        name: material
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
 
-pages:
-- Arduino:
-        - 'Pengenalan': 'arduino/pengenalan.md'
+markdown_extensions:
+  - pymdownx.highlight:
+      use_pygments: true
+      linenums_style: pymdownx.inline
+      linenums: true
+  - pymdownx.tabbed
+  - pymdownx.superfences
+  - pymdownx.snippets:
+        check_paths: true
+        base_path: docs
+  - admonition
+
+nav:
+  - Home: "index.md"
+  - About: "about.md"
+  - Arduino:
+      - "Pengenalan": "arduino/pengenalan.md"
+      - "Contoh Project":
+          - "Blink": "arduino/contoh/blink.md"
+          - "Digital Read Serial": "arduino/contoh/digitalReadSerial.md"
+  - Linux:
+      - "Artix":
+          - "Pengenalan": "linux/artix/pengenalan.md"
+      - "Debian":
+          - "Pengenalan": "linux/debian/pengenalan.md"
+  - PLC:
+      - "Siemens":
+          - "Pengenlanan": "plc/siemens/pengenalan.md"
+#- C/C++ Lang:
+#- Nim Lang:
+#- V Lang:
+copyright: Copyright &copy; 2021 - now() Suka Isnaini
