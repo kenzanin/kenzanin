@@ -1,10 +1,11 @@
 site_name: Solderen
+plugins:
+  - macros
 
 theme:
   name: material
   features:
     - navigation.tabs
-    - navigation.tabs.sticky
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -17,12 +18,18 @@ markdown_extensions:
         check_paths: true
         base_path: docs
   - admonition
+  - abbr
+  - pymdownx.critic
+  - pymdownx.betterem:
+      smart_enable: all
 
 nav:
   - Home: "index.md"
   - About: "about.md"
   - Arduino:
       - "Pengenalan": "arduino/pengenalan.md"
+      - "Install": "arduino/install.md"
+      - "Setup Project": "arduino/setupProject.md"
       - "Contoh Project":
           - "Blink": "arduino/contoh/blink.md"
           - "Digital Read Serial": "arduino/contoh/digitalReadSerial.md"
