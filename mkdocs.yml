@@ -41,7 +41,13 @@ nav:
   - PLC:
       - "Siemens":
           - "Pengenlanan": "plc/siemens/pengenalan.md"
-#- C/C++ Lang:
-#- Nim Lang:
-#- V Lang:
+  - Lang:
+    - "C Lang":
+      - "Pengenalan": "clang/pengenalan.md"
+    - "Nim Lang":
+      - "Pengenalan": "nim/pengenalan.md"
+    - "V Lang":
+      - "Pengenalan": "vlang/pengenalan"
+
+
 copyright: Copyright &copy; 2021 - now() Suka Isnaini
