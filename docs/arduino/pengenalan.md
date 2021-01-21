@@ -2,13 +2,10 @@
 ## Apa itu Arduino
 Ardunio merupakan perusahaan yang bergerakdi bidang pembuatan modul dan framework untuk beberapa jenis microController diantaranya
 
-- AVR
-
-- ATSAM
-
-- Intel
-
-- dan mungkin beberapa jenis MCU lain.
+* AVR
+* ATSAM
+* Intel
+* dan mungkin beberapa jenis MCU lain.
 
 Yang membuat Arduino berbeda dari beberapa vendor yang lain adalah sifatnya yang Open-Source dan dedikasi dari para pendiri dan kontributor yang fokus untuk kemudahan pemakaian bagi para pemula. meskipun ini berarti beberapa fungsi harus kehilangan effisiensi untuk mengejar kemudahan.
 
