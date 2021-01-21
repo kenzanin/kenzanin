@@ -1,13 +1,23 @@
 site_name: Solderen
+
 plugins:
-  - macros
+  - search
+  - macros:
+      include_yaml: 
+        - "docs/arduino/variables.yaml"
+        - "docs/lang/clang/variables.yaml"
 
 theme:
   name: material
+  font:
+    text: JetBrains Mono
   features:
-    - navigation.tabs
+  #  - navigation.tabs
+    - tabs
+    - instant
 
 markdown_extensions:
+  - pymdownx.keys
   - pymdownx.highlight:
       use_pygments: true
       linenums_style: pymdownx.inline
@@ -15,13 +25,17 @@ markdown_extensions:
   - pymdownx.tabbed
   - pymdownx.superfences
   - pymdownx.snippets:
-        check_paths: true
-        base_path: docs
+      check_paths: true
+      base_path: docs
   - admonition
   - abbr
   - pymdownx.critic
   - pymdownx.betterem:
       smart_enable: all
+  - markdown_include.include:
+      base_path: docs
+  - attr_list
+  - footnotes
 
 nav:
   - Home: "index.md"
@@ -42,12 +56,14 @@ nav:
       - "Siemens":
           - "Pengenlanan": "plc/siemens/pengenalan.md"
   - Lang:
-    - "C Lang":
-      - "Pengenalan": "clang/pengenalan.md"
-    - "Nim Lang":
-      - "Pengenalan": "nim/pengenalan.md"
-    - "V Lang":
-      - "Pengenalan": "vlang/pengenalan"
-
-
+      - "C Lang":
+          - "Pengenalan": "lang/clang/pengenalan.md"
+          - "Install": "lang/clang/install.md"
+          - "Contoh":
+            - "Hello World": "lang/clang/contoh/helloWorld.md"
+            - "Armstrong Number": "lang/clang/contoh/armstrongNumber.md"
+      - "Nim Lang":
+          - "Pengenalan": "nim/pengenalan.md"
+      - "V Lang":
+          - "Pengenalan": "vlang/pengenalan"
 copyright: Copyright &copy; 2021 - now() Suka Isnaini
