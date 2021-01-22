@@ -2,12 +2,12 @@ site_name: Solderen
 site_url: "https://kenzanin.github.io"
 
 extra:
-    disqus: kenzanin-github-io
+  disqus: kenzanin-github-io
 
 plugins:
   - search
   - macros:
-      include_yaml: 
+      include_yaml:
         - "docs/arduino/variables.yaml"
         - "docs/lang/clang/variables.yaml"
 
@@ -17,7 +17,7 @@ theme:
     text: JetBrains Mono
     code: consolas
   features:
-  #  - navigation.tabs
+    #  - navigation.tabs
     - tabs
     - instant
 
@@ -66,13 +66,21 @@ nav:
           - "Pengenalan": "lang/clang/pengenalan.md"
           - "Install": "lang/clang/install.md"
           - "Contoh":
-            - "Hello World": "lang/clang/contoh/helloWorld.md"
-            - "Armstrong Number": "lang/clang/contoh/armstrongNumber.md"
-            - "Darts": "lang/clang/contoh/darts.md"
-            - "Resistor Color": "lang/clang/contoh/resistorColor.md"
-            - "Resistor Color Duo": "lang/clang/contoh/resistorColorDuo.md"
+              - "Hello World": "lang/clang/contoh/helloWorld.md"
+              - "Armstrong Number": "lang/clang/contoh/armstrongNumber.md"
+              - "Darts": "lang/clang/contoh/darts.md"
+              - "Resistor Color": "lang/clang/contoh/resistorColor.md"
+              - "Resistor Color Duo": "lang/clang/contoh/resistorColorDuo.md"
+              - "Resistor Color Trio": "lang/clang/resistorColorTrio.md"
       - "Nim Lang":
-          - "Pengenalan": "nim/pengenalan.md"
+          - "Pengenalan": "lang/nim/pengenalan.md"
       - "V Lang":
-          - "Pengenalan": "vlang/pengenalan"
+          - "Pengenalan": "lang/vlang/pengenalan.md"
+      - "Pascal":
+          - "Pengenalan": "lang/pascal/pengenalan.md"
+      - "Asembly 8051":
+          - "Pengenalan": "lang/asm8051/pengenalan.md"
+      - "Asembly AVR":
+          - "Pengenalan": "lang/asmAvr/pengenalan.md"
+
 copyright: Copyright &copy; 2021 - now() Suka Isnaini
