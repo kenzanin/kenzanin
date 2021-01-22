@@ -43,7 +43,7 @@ Tentu saja untuk menikmati fasilitas di {{ exercism }} kita harus menjadi anggot
 ### Setup Tool
 
 {{exercism}} memberikan tool bantuan untuk bisa menggunakan course nya di desktop. tentu saja tool ini tidak diperlukan jika menggunakan fasilitas web/cloud but saya paling ndak bisa ngoding di hp atau di web hehe.
-Download tool nya dan extact file exercism ke /usr/local/bin buka terminal dan jalankan perintah
+Download tool nya dan extact file exercism ke `/usr/local/bin` buka terminal dan jalankan perintah
 
 ```bash
 $ exercism --help

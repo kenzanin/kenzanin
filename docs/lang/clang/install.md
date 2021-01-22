@@ -13,7 +13,7 @@ Pada Artix C compiler yang tersedia antara lain
 * AMD C compiler
 * Dll
 
-Tidak perlu semua Compiler di atas perlu di install semua cukup pilih satu saja dan untuk compatibilitas GCC merupakan compiler yang paling banyak dipakai selanjutnya Clang. Pada komputer saya saya menggunakan GCC dan Clang.
+Tidak perlu semua Compiler diinstall cukup pilih satu saja dan untuk compatibilitas GCC merupakan compiler yang paling banyak dipakai selanjutnya Clang. Pada komputer saya saya menggunakan GCC, Clang dan tcc.
 
 Untuk GCC pada artix di sediakan dalam package group base-devel sedang untuk Clang bisa diinstall terpisah.
 

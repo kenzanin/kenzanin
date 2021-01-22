@@ -1,4 +1,8 @@
 site_name: Solderen
+site_url: "https://kenzanin.github.io"
+
+extra:
+    disqus: kenzanin-github-io
 
 plugins:
   - search
@@ -11,6 +15,7 @@ theme:
   name: material
   font:
     text: JetBrains Mono
+    code: consolas
   features:
   #  - navigation.tabs
     - tabs
@@ -36,6 +41,7 @@ markdown_extensions:
       base_path: docs
   - attr_list
   - footnotes
+  - meta
 
 nav:
   - Home: "index.md"
@@ -62,6 +68,8 @@ nav:
           - "Contoh":
             - "Hello World": "lang/clang/contoh/helloWorld.md"
             - "Armstrong Number": "lang/clang/contoh/armstrongNumber.md"
+            - "Darts": "lang/clang/contoh/darts.md"
+            - "Resistor Color": "lang/clang/contoh/resistorColor.md"
       - "Nim Lang":
           - "Pengenalan": "nim/pengenalan.md"
       - "V Lang":
