@@ -70,6 +70,7 @@ nav:
             - "Armstrong Number": "lang/clang/contoh/armstrongNumber.md"
             - "Darts": "lang/clang/contoh/darts.md"
             - "Resistor Color": "lang/clang/contoh/resistorColor.md"
+            - "Resistor Color Duo": "lang/clang/contoh/resistorColorDuo.md"
       - "Nim Lang":
           - "Pengenalan": "nim/pengenalan.md"
       - "V Lang":
