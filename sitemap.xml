@@ -44,6 +44,14 @@
      <lastmod>2021-01-23</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
+     <loc>https://kenzanin.github.io/mcs51/helloWorldAsm/</loc>
+     <lastmod>2021-01-23</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://kenzanin.github.io/mcs51/helloWorldC/</loc>
+     <lastmod>2021-01-23</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
      <loc>https://kenzanin.github.io/lang/clang/pengenalan/</loc>
      <lastmod>2021-01-23</lastmod>
      <changefreq>daily</changefreq>
@@ -73,6 +81,10 @@
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kenzanin.github.io/lang/clang/contoh/resistorColorTrio/</loc>
+     <lastmod>2021-01-23</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://kenzanin.github.io/lang/asm8051/pengenalan/</loc>
      <lastmod>2021-01-23</lastmod>
      <changefreq>daily</changefreq>
     </url>
