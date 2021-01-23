@@ -1,102 +1,115 @@
 site_name: Solderen
 site_url: "https://kenzanin.github.io"
+edit_uri: "edit/master/docs/"
+repo_url: "https://github.com/kenzanin/kenzanin.github.io"
 
 extra:
-    disqus: kenzanin-github-io
+  disqus: kenzanin-github-io
+  social:
+    - icon: "fontawesome/brands/telegram"
+      link: https://telegram.me/kenzanin
+      name: kenzanin
+    - icon: "fontawesome/brands/whatsapp"
+      link: https://wa.link/q6rses
+      name: suka isnaini
+    - icon: "fontawesome/solid/at"
+      link: mailto:kenzanin@gmail.com
+      name: kenzanin
 
 plugins:
-    - search
-    - macros:
-          include_yaml:
-              - "docs/arduino/variables.yml"
-              - "docs/lang/clang/variables.yml"
-              #- "docs/mcs51/variables.yml"
-          include_dir: docs
+  - search
+  - macros:
+      include_yaml:
+        - "docs/arduino/variables.yml"
+        - "docs/lang/clang/variables.yml"
+        #- "docs/mcs51/variables.yml"
+      include_dir: docs
+  - git-revision-date-localized
 
 theme:
-    name: material
-    font:
-        text: JetBrains Mono
-        code: consolas
-    features:
-        #- navigation.tabs
-        - tabs
-        - navigation.sections
-        #- navigation.instant
+  name: material
+  font:
+    text: JetBrains Mono
+    code: consolas
+  features:
+    #- navigation.tabs
+    - tabs
+    - navigation.sections
+    #- navigation.instant
 
 markdown_extensions:
-    - pymdownx.keys
-    - pymdownx.highlight:
-          use_pygments: true
-          linenums_style: pymdownx.inline
-          linenums: true
-    - pymdownx.tabbed
-    - pymdownx.superfences
-    - pymdownx.snippets:
-          check_paths: true
-          base_path: docs
-    - admonition
-    - abbr
-    - pymdownx.critic
-    - pymdownx.betterem:
-          smart_enable: all
-    - markdown_include.include:
-          base_path: docs
-    - attr_list
-    - footnotes
-    - meta
-    
+  - pymdownx.keys
+  - pymdownx.highlight:
+      use_pygments: true
+      linenums_style: pymdownx.inline
+      linenums: true
+  - pymdownx.tabbed
+  - pymdownx.superfences
+  - pymdownx.snippets:
+      check_paths: true
+      base_path: docs
+  - admonition
+  - abbr
+  - pymdownx.critic
+  - pymdownx.betterem:
+      smart_enable: all
+  - markdown_include.include:
+      base_path: docs
+  - attr_list
+  - footnotes
+  - meta
+
 nav:
-    - Home: "index.md"
-    - About: "about.md"
-    - Arduino:
-          - "Pengenalan": "arduino/pengenalan.md"
-          - "Install": "arduino/install.md"
-          - "Setup Project": "arduino/setupProject.md"
-          - "Contoh Project":
-                - "Blink": "arduino/contoh/blink.md"
-                - "Digital Read Serial": "arduino/contoh/digitalReadSerial.md"
-    - Linux:
-          - "Artix":
-                - "Pengenalan": "linux/artix/pengenalan.md"
-          - "Debian":
-                - "Pengenalan": "linux/debian/pengenalan.md"
-    - PLC Hmi & Scada:
-          - "Siemens":
-                - "Pengenlanan": "plcHmiScada/siemens/pengenalan.md"
-          - "Mitsubishi":
-                - "Pengenalan": "plcHmiScada/mitsubishi/pengenalan.md"
-    - Mcs51:
-          - "Pengenalan": "mcs51/pengenalan.md"
-          - "Hardware": "mcs51/hardware.md"
-          - "Software": "mcs51/software.md"
-    - AVR:
-          - "Pengenalan": "avr/pengenalan.md"
-    - ESP:
-          - "ESP8266":
-                - "Pengenalan": "esp/esp8266/pengenalan.md"
-          - "ESP32":
-                - "Pengenalan": "esp/esp32/pengenalan.md"
-    - Lang:
-          - "C Lang":
-                - "Pengenalan": "lang/clang/pengenalan.md"
-                - "Install": "lang/clang/install.md"
-                - "Contoh":
-                      - "Hello World": "lang/clang/contoh/helloWorld.md"
-                      - "Armstrong Number": "lang/clang/contoh/armstrongNumber.md"
-                      - "Darts": "lang/clang/contoh/darts.md"
-                      - "Resistor Color": "lang/clang/contoh/resistorColor.md"
-                      - "Resistor Color Duo": "lang/clang/contoh/resistorColorDuo.md"
-                      - "Resistor Color Trio": "lang/clang/resistorColorTrio.md"
-          - "Nim Lang":
-                - "Pengenalan": "lang/nim/pengenalan.md"
-          - "V Lang":
-                - "Pengenalan": "lang/vlang/pengenalan.md"
-          - "Pascal":
-                - "Pengenalan": "lang/pascal/pengenalan.md"
-          - "Asembly 8051":
-                - "Pengenalan": "lang/asm8051/pengenalan.md"
-          - "Asembly AVR":
-                - "Pengenalan": "lang/asmAvr/pengenalan.md"
+  - Home: "index.md"
+  - About: "about.md"
+  - Arduino:
+      - "Pengenalan": "arduino/pengenalan.md"
+      - "Install": "arduino/install.md"
+      - "Setup Project": "arduino/setupProject.md"
+      - "Contoh Project":
+          - "Blink": "arduino/contoh/blink.md"
+          - "Digital Read Serial": "arduino/contoh/digitalReadSerial.md"
+  - Linux:
+      - "Artix":
+          - "Pengenalan": "linux/artix/pengenalan.md"
+      - "Debian":
+          - "Pengenalan": "linux/debian/pengenalan.md"
+  - PLC Hmi & Scada:
+      - "Siemens":
+          - "Pengenlanan": "plcHmiScada/siemens/pengenalan.md"
+      - "Mitsubishi":
+          - "Pengenalan": "plcHmiScada/mitsubishi/pengenalan.md"
+  - Mcs51:
+      - "Pengenalan": "mcs51/pengenalan.md"
+      - "Hardware": "mcs51/hardware.md"
+      - "Software": "mcs51/software.md"
+  - AVR:
+      - "Pengenalan": "avr/pengenalan.md"
+  - ESP:
+      - "ESP8266":
+          - "Pengenalan": "esp/esp8266/pengenalan.md"
+      - "ESP32":
+          - "Pengenalan": "esp/esp32/pengenalan.md"
+  - Lang:
+      - "C Lang":
+          - "Pengenalan": "lang/clang/pengenalan.md"
+          - "Install": "lang/clang/install.md"
+          - "Contoh":
+              - "Hello World": "lang/clang/contoh/helloWorld.md"
+              - "Armstrong Number": "lang/clang/contoh/armstrongNumber.md"
+              - "Darts": "lang/clang/contoh/darts.md"
+              - "Resistor Color": "lang/clang/contoh/resistorColor.md"
+              - "Resistor Color Duo": "lang/clang/contoh/resistorColorDuo.md"
+              - "Resistor Color Trio": "lang/clang/contoh/resistorColorTrio.md"
+      - "Nim Lang":
+          - "Pengenalan": "lang/nim/pengenalan.md"
+      - "V Lang":
+          - "Pengenalan": "lang/vlang/pengenalan.md"
+      - "Pascal":
+          - "Pengenalan": "lang/pascal/pengenalan.md"
+      - "Asembly 8051":
+          - "Pengenalan": "lang/asm8051/pengenalan.md"
+      - "Asembly AVR":
+          - "Pengenalan": "lang/asmAvr/pengenalan.md"
 
 copyright: Copyright &copy; 2021 [Suka Isnaini]
