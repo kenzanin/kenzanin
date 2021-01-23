@@ -1,6 +1,6 @@
 site_name: Solderen
 site_url: "https://kenzanin.github.io"
-edit_uri: "edit/master/docs/"
+edit_uri: "tree/main/docs/"
 repo_url: "https://github.com/kenzanin/kenzanin.github.io"
 
 extra:
@@ -25,6 +25,11 @@ plugins:
         #- "docs/mcs51/variables.yml"
       include_dir: docs
   - git-revision-date-localized
+  - minify:
+      minify_html: true
+      minify_js: true
+      htmlmin_opts:
+        remove_comments: true
 
 theme:
   name: material
@@ -58,6 +63,8 @@ markdown_extensions:
   - attr_list
   - footnotes
   - meta
+  - pymdownx.magiclink
+  - pymdownx.pathconverter
 
 nav:
   - Home: "index.md"
