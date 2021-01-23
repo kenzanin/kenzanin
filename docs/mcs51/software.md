@@ -8,7 +8,7 @@ Tanpa Software/Firmware pun AT89S52 masih sangat berguna, sebagai gantungan kunc
 
 ## Jenis Software
 
-Tidak seperti bagian hardware yang sangat miskin dibanding {{var.uc}} lainnya, {{var.at89}} memiliki dukungan yang melimpah di bagian ini. Mulai dari asembler, c compiler, pascal compiler, basic compiler sampai simulator bisa dicari dengan sangat mudah. untuk keperluan pembuatan software/firmware dari {{var.uc}} saya menggunakan {{var.ide}} yang bagi saya sudah lebih dari cukup untuk belajar baik C atau assembly.
+Tidak seperti bagian hardware yang sangat miskin dibanding {{var.uc}} lainnya, {{var.at89}} memiliki dukungan yang melimpah di bagian ini. Mulai dari asembler, c compiler, pascal compiler, basic compiler sampai simulator bisa dicari dengan sangat mudah. untuk keperluan pembuatan software/firmware dari {{var.at89}} saya menggunakan {{var.ide}} yang bagi saya sudah lebih dari cukup untuk membuat firmware C atau assembly.
 
 ## {{var.ide}}
 

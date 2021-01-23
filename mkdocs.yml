@@ -41,6 +41,8 @@ theme:
     - tabs
     - navigation.sections
     #- navigation.instant
+  palette:
+    scheme: slate
 
 markdown_extensions:
   - pymdownx.keys
@@ -65,6 +67,8 @@ markdown_extensions:
   - meta
   - pymdownx.magiclink
   - pymdownx.pathconverter
+  - pymdownx.inlinehilite
+
 
 nav:
   - Home: "index.md"
@@ -90,6 +94,8 @@ nav:
       - "Pengenalan": "mcs51/pengenalan.md"
       - "Hardware": "mcs51/hardware.md"
       - "Software": "mcs51/software.md"
+      - "Hello World Asm": "mcs51/helloWorldAsm.md"
+      - "Hello World C": "mcs51/helloWorldC.md"
   - AVR:
       - "Pengenalan": "avr/pengenalan.md"
   - ESP:
