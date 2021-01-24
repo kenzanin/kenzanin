@@ -93,9 +93,10 @@ nav:
   - Mcs51:
       - "Pengenalan": "mcs51/pengenalan.md"
       - "Hardware": "mcs51/hardware.md"
-      - "Software": "mcs51/software.md"
-      - "Hello World Asm": "mcs51/helloWorldAsm.md"
-      - "Hello World C": "mcs51/helloWorldC.md"
+      - "Software": 
+        - "MCU8051IDE": "mcs51/software.md"
+        - "Hello World Asm": "mcs51/helloWorldAsm.md"
+        - "Hello World C": "mcs51/helloWorldC.md"
   - AVR:
       - "Pengenalan": "avr/pengenalan.md"
   - ESP:

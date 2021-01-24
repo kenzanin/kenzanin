@@ -1,4 +1,9 @@
 # Welcome to MkDocs
+
+{{page.previous_page}}
+{{page.previous_page.title}}
+{{page.previous_page.url}}
+
 Yups MkDocs tool untuk membuat static html dari markdown.
 
 Selamat datang n halaman ini untuk menaruh news dari situs ini. sering2 di check barang kali salah satu dari

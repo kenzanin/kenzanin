@@ -6,7 +6,9 @@
 !!! note
 Tanpa Software/Firmware pun AT89S52 masih sangat berguna, sebagai gantungan kunci hehe.
 
-## Jenis Software
+## Fungsi Software
+
+Fungsi dari software ini adalah untuk menggerakkan berbagai peripheral yang tersedia didalam {{var.at89}} misalnya adalah Port Input Output (PIO), Timer, Serial Port, dll. 
 
 Tidak seperti bagian hardware yang sangat miskin dibanding {{var.uc}} lainnya, {{var.at89}} memiliki dukungan yang melimpah di bagian ini. Mulai dari asembler, c compiler, pascal compiler, basic compiler sampai simulator bisa dicari dengan sangat mudah. untuk keperluan pembuatan software/firmware dari {{var.at89}} saya menggunakan {{var.ide}} yang bagi saya sudah lebih dari cukup untuk membuat firmware C atau assembly.
 
