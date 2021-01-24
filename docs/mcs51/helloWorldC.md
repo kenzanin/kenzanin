@@ -23,7 +23,7 @@ tekan "OK", jika ada tawaran untuk membuat folder baru tekan saya "Yes"
 
 Langkah pertama yang harus dilakukan adalah save file, tekan menu "File" pada toolbar dan pilih "Save As" maka akan muncul gambar seperti berikut
 
-| <a name="image3" ></a> ![3](img/mcs8051ide-saveAs.webp){: loading=lazy}|
+| <a name="image3" ></a> ![3](img/mcs8051ide-saveAsC.webp){: loading=lazy}|
 |:--:|
 |*Image: Save As*|
 
@@ -37,7 +37,7 @@ untuk saat ini kita akan mencoba menggunakan file C. pada gambar ["Save As"](#im
 
 Jika sesuai dengan urutan maka hasil nya seperti dibawah ini.
 
-| <a name="image4" ></a> ![3](img/mcs8051ide-newProjectDone.webp){: loading=lazy}|
+| <a name="image4" ></a> ![3](img/mcs8051ide-newProjectDoneC.webp){: loading=lazy}|
 |:--:|
 |*Image: New Project Done.*|
 
@@ -46,4 +46,8 @@ Jika sesuai dengan urutan maka hasil nya seperti dibawah ini.
 ```c
 --8<-- "mcs51/src/coba02.c"
 ```
+Copas atau ketik ulang code diatas dan tekan F11 untuk compile, jika tidak ada pesan error pada panel message, maka bisa lanjut kemode debug dengan menekan tombol F5, jalankan pogram baris per baris dengan menekan tombol F6.
 
+Untuk contoh-contoh yang lebih menarik bisa dilanjutkan di ["MCS51 C"](/lang/mcs51c/intro.md)
+
+Goodluck
