@@ -1,9 +1,9 @@
 jmp main
 
 delay:  ; delay
-	nop ; seharusnya disini dibuat looping sampai sampai 1s
-	    ; masalahnya untuk simulasi hal ini sangat menggangu
-	    ; karena simulasi tidak secepat hardware asli.
+	nop ; seharusnya disini dibuat looping sampai 1s. Masalahnya
+	    ; untuk simulasi hal ini sangat menggangu karena
+	    ; simulasi tidak secepat hardware asli.
 	    ; jadi untuk simulasi digunakan nop == 1clock
 	ret
 
