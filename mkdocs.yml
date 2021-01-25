@@ -68,53 +68,55 @@ markdown_extensions:
   - pymdownx.pathconverter
   - pymdownx.inlinehilite
 
-
 nav:
   - Home: "index.md"
   - About: "about.md"
   - Framework:
-    - Arduino:
-      - "Pengenalan": "framework/arduino/pengenalan.md"
-      - "Install": "framework/arduino/install.md"
-      - "Setup Project": "framework/arduino/setupProject.md"
-      - "Contoh Project":
-          - "Blink": "framework/arduino/contoh/blink.md"
-          - "Digital Read Serial": "framework/arduino/contoh/digitalReadSerial.md"
+      - Arduino:
+          - "Pengenalan": "framework/arduino/pengenalan.md"
+          - "Install": "framework/arduino/install.md"
+          - "Setup Project": "framework/arduino/setupProject.md"
+          - "Contoh Project":
+              - "Blink": "framework/arduino/contoh/blink.md"
+              - "Digital Read Serial": "framework/arduino/contoh/digitalReadSerial.md"
   - Micro Controller:
-    - Mcs51:
-      - "Pengenalan": "microController/mcs51/pengenalan.md"
-      - "Hardware": "microController/mcs51/hardware.md"
-      - "Software": 
-        - "MCU8051IDE": "microController/mcs51/software.md"
-        - "SDCC": "microController/mcs51/sdcc.md"
-        - "Hello World Asm": "microController/mcs51/helloWorldAsm.md"
-        - "Hello World C": "microController/mcs51/helloWorldC.md"
-      - "Contoh Project":
-        - "Count Up Led": "microController/mcs51/contoh/countUpLed.md"
-#  - Linux:
-#      - "Artix":
-#          - "Pengenalan": "linux/artix/pengenalan.md"
-#      - "Debian":
-#          - "Pengenalan": "linux/debian/pengenalan.md"
-#  - PLC Hmi & Scada:
-#      - "Siemens":
-#          - "Pengenlanan": "plcHmiScada/siemens/pengenalan.md"
-#      - "Mitsubishi":
-#          - "Pengenalan": "plcHmiScada/mitsubishi/pengenalan.md"
-#  - Mcs51:
-#      - "Pengenalan": "mcs51/pengenalan.md"
-#      - "Hardware": "mcs51/hardware.md"
-#      - "Software": 
-#        - "MCU8051IDE": "mcs51/software.md"
-#        - "Hello World Asm": "mcs51/helloWorldAsm.md"
-#        - "Hello World C": "mcs51/helloWorldC.md"
-#  - AVR:
-#      - "Pengenalan": "avr/pengenalan.md"
-#  - ESP:
-#      - "ESP8266":
-#          - "Pengenalan": "esp/esp8266/pengenalan.md"
-#      - "ESP32":
-#          - "Pengenalan": "esp/esp32/pengenalan.md"
+      - Mcs51:
+          - "Pengenalan": "microController/mcs51/pengenalan.md"
+          - "Hardware": "microController/mcs51/hardware.md"
+          - "Software":
+              - "MCU8051IDE": "microController/mcs51/software.md"
+              - "SDCC": "microController/mcs51/sdcc.md"
+              - "Hello World Asm": "microController/mcs51/helloWorldAsm.md"
+              - "Hello World C": "microController/mcs51/helloWorldC.md"
+          - "Contoh Project":
+              - "Count Up Led": "microController/mcs51/contoh/countUpLed.md"
+              - "Count Up Led Asm": "microController/mcs51/contoh/countUpLedAsm.md"
+              - "Count Down Led": "microController/mcs51/contoh/countDownLed.md"
+              - "Count Down Led Asm": "microController/mcs51/contoh/countDownLedAsm.md"
+  #  - Linux:
+  #      - "Artix":
+  #          - "Pengenalan": "linux/artix/pengenalan.md"
+  #      - "Debian":
+  #          - "Pengenalan": "linux/debian/pengenalan.md"
+  #  - PLC Hmi & Scada:
+  #      - "Siemens":
+  #          - "Pengenlanan": "plcHmiScada/siemens/pengenalan.md"
+  #      - "Mitsubishi":
+  #          - "Pengenalan": "plcHmiScada/mitsubishi/pengenalan.md"
+  #  - Mcs51:
+  #      - "Pengenalan": "mcs51/pengenalan.md"
+  #      - "Hardware": "mcs51/hardware.md"
+  #      - "Software":
+  #        - "MCU8051IDE": "mcs51/software.md"
+  #        - "Hello World Asm": "mcs51/helloWorldAsm.md"
+  #        - "Hello World C": "mcs51/helloWorldC.md"
+  #  - AVR:
+  #      - "Pengenalan": "avr/pengenalan.md"
+  #  - ESP:
+  #      - "ESP8266":
+  #          - "Pengenalan": "esp/esp8266/pengenalan.md"
+  #      - "ESP32":
+  #          - "Pengenalan": "esp/esp32/pengenalan.md"
   - Lang:
       - "C Lang":
           - "Pengenalan": "lang/clang/pengenalan.md"
@@ -126,11 +128,11 @@ nav:
               - "Resistor Color": "lang/clang/contoh/resistorColor.md"
               - "Resistor Color Duo": "lang/clang/contoh/resistorColorDuo.md"
               - "Resistor Color Trio": "lang/clang/contoh/resistorColorTrio.md"
-#      - "MCS51 C":
-#        - "Intro": "lang/mcs51c/intro.md"
-#        - "IDE": "lang/mcs51c/ide.md"
-#        - "Contoh":
-#          - "Count Up Led": "lang/mcs51c/contoh/countUpLed.md"
+      #      - "MCS51 C":
+      #        - "Intro": "lang/mcs51c/intro.md"
+      #        - "IDE": "lang/mcs51c/ide.md"
+      #        - "Contoh":
+      #          - "Count Up Led": "lang/mcs51c/contoh/countUpLed.md"
       - "Nim Lang":
           - "Pengenalan": "lang/nim/pengenalan.md"
       - "V Lang":
