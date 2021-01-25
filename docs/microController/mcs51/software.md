@@ -1,4 +1,4 @@
-{% import "mcs51/variables.md" as var %}
+{% import "microController/mcs51/variables.md" as var %}
 {% import "variables.md" as glob %}
 
 # Software
@@ -14,7 +14,7 @@ Tidak seperti bagian hardware yang sangat miskin dibanding {{var.uc}} lainnya, {
 
 ## {{var.ide}}
 
-Tidak seperti software PC pada umumnya, software pada {{var.uc}} tidak bisa dijalankan(klik 2x) pada PC, hal ini dikarenakan cpu pada PC(x86 atau compatilbe) berbeda dengan cpu {{var.at89}}, sehingga untuk menjalankan software ini digunakan emulator, opsi lainnya adalah mencobanya langsung ke dev board, opsi terakhir ini kurang cocok untuk latihan pemograman {{var.at89}} selain harus beli board nya juga proses pemindahan data dari PC ke {{var.at89}} relative ribet hehe dan juga untuk belajar proses debugging adalah wajib dengan menggunakan board langsung prosess ini butuh alat-alat yang relative mahal.
+Tidak seperti software PC pada umumnya, software pada {{var.uc}} tidak bisa dijalankan(klik 2x) pada PC, hal ini dikarenakan cpu pada PC(x86 atau compatilbe) berbeda dengan cpu {{var.at89}}, sehingga untuk menjalankan software ini digunakan emulator, opsi lainnya adalah mencobanya langsung ke dev board, opsi terakhir ini kurang cocok untuk latihan pemograman {{var.at89}} selain harus beli board nya juga proses pemindahan data dari PC ke {{var.at89}} relative ribet hehe dan juga untuk belajar {{var.at89}} ini salah satu prosesnya adalah debugging, men-debug dengan menggunakan board langsung membutuhkan alat-alat yang relative mahal, jadi solusi emulator masih solusi terbaik untuk saat ini.
 
 {{var.ide}} memiliki berbagai fitur yang sangat menarik diantaranya
 

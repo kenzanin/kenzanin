@@ -1,4 +1,4 @@
-{% import "mcs51/variables.md" as var %}
+{% import "microController/mcs51/variables.md" as var %}
 {% import "variables.md" as glob %}
 
 # Hello Wolrd Assembly Style
@@ -18,7 +18,7 @@ main:
 Dari {{pscode}} diatas dapat dibangun program assembly seperti dibawah ini
 
 ```asm
---8<-- "mcs51/src/coba01.asm"
+--8<-- "microController/mcs51/src/coba01.asm"
 ```
 
 ketik atau copas code diatas pada {{var.ide}} dan tekan "Compile"(F11) jika tidak ada error pada panel message tekan tombol "Start debug"(F5) maka akan muncul garis warna hijau di code kita, tekan "Step"(F7) untuk mulai menjalankan pogram step by step.

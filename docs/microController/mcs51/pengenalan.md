@@ -1,4 +1,4 @@
-{% import "mcs51/variables.md" as var %}
+{% import "microController/mcs51/variables.md" as var %}
 # Pengenalan
 
 Intel 8051(mcs51) merupakan {{var.uc}} yang cukup tua. dari wikipedia, intel mulai mengembangkannya pada tahun 1980[^1]. cukup tua hehe. Meskipun sudah tua mcs51 sampai sekarang masih tetap dikembangkan dan digunakan tidak hanya itu bahkan beberapa produsen meningkatkan performa mcs51 yang sebelumnya membutuhkan 12cycle clock(tiks) untuk satu instruksi menjadi 1-4tiks saja, selain itu juga penambahan beberapa periperal modern seperti
