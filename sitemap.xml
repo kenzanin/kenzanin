@@ -8,27 +8,31 @@
      <lastmod>2021-01-25</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://kenzanin.github.io/framework/arduino/pengenalan/</loc>
+     <loc>https://kenzanin.github.io/frameworks/arduino/intro/</loc>
      <lastmod>2021-01-25</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://kenzanin.github.io/framework/arduino/install/</loc>
+     <loc>https://kenzanin.github.io/frameworks/arduino/install/</loc>
      <lastmod>2021-01-25</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://kenzanin.github.io/framework/arduino/setupProject/</loc>
+     <loc>https://kenzanin.github.io/frameworks/arduino/setupProject/</loc>
      <lastmod>2021-01-25</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://kenzanin.github.io/framework/arduino/contoh/blink/</loc>
+     <loc>https://kenzanin.github.io/frameworks/arduino/contoh/blink/</loc>
      <lastmod>2021-01-25</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://kenzanin.github.io/framework/arduino/contoh/digitalReadSerial/</loc>
+     <loc>https://kenzanin.github.io/frameworks/arduino/contoh/digitalReadSerial/</loc>
      <lastmod>2021-01-25</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://kenzanin.github.io/microController/mcs51/pengenalan/</loc>
+     <loc>https://kenzanin.github.io/frameworks/platformio/intro/</loc>
+     <lastmod>2021-01-25</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://kenzanin.github.io/microController/mcs51/intro/</loc>
      <lastmod>2021-01-25</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
@@ -52,11 +56,7 @@
      <lastmod>2021-01-25</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://kenzanin.github.io/microController/mcs51/contoh/countUpLed/</loc>
-     <lastmod>2021-01-25</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
-     <loc>https://kenzanin.github.io/microController/mcs51/contoh/countUpLedAsm/</loc>
+     <loc>https://kenzanin.github.io/microController/mcs51/contoh/countDownLedAsm/</loc>
      <lastmod>2021-01-25</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
@@ -64,11 +64,19 @@
      <lastmod>2021-01-25</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://kenzanin.github.io/microController/mcs51/contoh/countDownLedAsm/</loc>
+     <loc>https://kenzanin.github.io/microController/mcs51/contoh/countUpLedAsm/</loc>
      <lastmod>2021-01-25</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://kenzanin.github.io/lang/clang/pengenalan/</loc>
+     <loc>https://kenzanin.github.io/microController/mcs51/contoh/countUpLed/</loc>
+     <lastmod>2021-01-25</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://kenzanin.github.io/linux/artix/pengenalan/</loc>
+     <lastmod>2021-01-25</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://kenzanin.github.io/lang/clang/intro/</loc>
      <lastmod>2021-01-25</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
@@ -97,10 +105,6 @@
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kenzanin.github.io/lang/clang/contoh/resistorColorTrio/</loc>
-     <lastmod>2021-01-25</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
-     <loc>https://kenzanin.github.io/lang/asm8051/pengenalan/</loc>
      <lastmod>2021-01-25</lastmod>
      <changefreq>daily</changefreq>
     </url>
