@@ -3,4 +3,5 @@ nav:
     - About: "about.md"
     - Frameworks: "frameworks"
     - Micro Controller: microController
+    - Linux: linux
     - Language: "lang"

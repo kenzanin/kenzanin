@@ -2,3 +2,4 @@ nav:
     - AVR: avr
     - ESP: esp
     - MCS51: mcs51
+    - Stm32: stm32
