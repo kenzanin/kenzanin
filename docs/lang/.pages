@@ -1,0 +1,6 @@
+nav:
+    - C: clang
+    - Pascal: pascal
+    - Nim: nim 
+    - Vlang: vlang
+    - Zig: zig

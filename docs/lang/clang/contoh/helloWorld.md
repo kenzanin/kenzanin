@@ -1,3 +1,5 @@
+{% import "lang/clang/variables.md" as loc %}
+
 # Hello World
 
 Pogram yang paling sering dibuat di bumi hehehe.
@@ -30,20 +32,20 @@ $ ./helloWorld
 $ Hello World
 ```
 
-## The {{ exercism }} Ways
+## The {{ loc.exercism }} Ways
 
 Pada contoh C yang ada di situs ini menggunakan contoh soal yang disediakan oleh {{ exercism }}, {{ exercism }} menyediakan beberapa soal latihan untuk berbagai jenis bahasa pemograman, selain soal latihan {{ exercism }} juga memberikan tempat bagi komunitas untuk berdikusi dan membandingkan solusi dari coding mereka. in short just join (for free) and have fun.
 
-Cara yang dipakai di {{ exercism }} agak berbeda dengan cara yang sudah saya tunjukkan sebelum nya, meskipun juga menggunakan Make namun selain mengcompile source, Make juga digunakan untuk memeriksa apakah pogram yang kita buat sudah sesuai dengan harapan mereka melalui unittest.
+Cara yang dipakai di {{ loc.exercism }} agak berbeda dengan cara yang sudah saya tunjukkan sebelum nya, meskipun juga menggunakan Make namun selain mengcompile source, Make juga digunakan untuk memeriksa apakah pogram yang kita buat sudah sesuai dengan harapan mereka melalui unittest.
 
-### Join {{ exercism }}
+### Join {{ loc.exercism }}
 
-Tentu saja untuk menikmati fasilitas di {{ exercism }} kita harus menjadi anggota nya. cukup sederhana juga cara daftarnya jika bisa daftar gmail pasti bisa daftar {{ exercism }}
+Tentu saja untuk menikmati fasilitas di {{ loc.exercism }} kita harus menjadi anggota nya. cukup sederhana juga cara daftarnya jika bisa daftar gmail pasti bisa daftar {{ loc.exercism }}
 
 ### Setup Tool
 
-{{exercism}} memberikan tool bantuan untuk bisa menggunakan course nya di desktop. tentu saja tool ini tidak diperlukan jika menggunakan fasilitas web/cloud but saya paling ndak bisa ngoding di hp atau di web hehe.
-Download tool nya dan extact file exercism ke `/usr/local/bin` buka terminal dan jalankan perintah
+{{loc.exercism}} memberikan tool bantuan untuk bisa menggunakan course nya di desktop. tentu saja tool ini tidak diperlukan jika menggunakan fasilitas web/cloud but saya paling ndak bisa ngoding di hp atau di web hehe.
+Download tool nya dan extact file `exercism` ke `/usr/local/bin` buka terminal dan jalankan perintah
 
 ```bash
 $ exercism --help
@@ -125,7 +127,7 @@ test/test_hello_world.c:32:test_say_hi:PASS
 1 Tests 0 Failures 0 Ignored
 OK
 ```
-#### Kirim Jawaban ke {{exercism}}
+#### Kirim Jawaban ke {{loc.exercism}}
 jika ada tulisan 0 Failures pada step [`Make/Compile`](#makecompile) maka tracks udah selesai dan siap dikirim. Kirim jawaban dengan tool exercism menggunakan option summit
 
 ```bash
@@ -141,6 +143,6 @@ $ exercism submit src/hello_world.c
 
 ### Completing tracks
 
-Buka lagi situs {{exercism}} login jika belum dan buka exercise pada sub bab [`Pilih C Source`](#pilih-c-course) tekan tombol `complete this solution`. sekarang buka tracks selanjutnya hehehe.
+Buka lagi situs {{loc.exercism}} login jika belum dan buka exercise pada sub bab [`Pilih C Source`](#pilih-c-course) tekan tombol `complete this solution`. sekarang buka tracks selanjutnya hehehe.
 
 Goodluck

@@ -1,5 +1,5 @@
 {% import "variables.md" as glob %}
-{% import "framework/arduino/variables.md" as loc %}
+{% import "frameworks/arduino/variables.md" as loc %}
 
 # Pengenalan {{loc.arduino}}
 

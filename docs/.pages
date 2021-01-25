@@ -1,0 +1,6 @@
+nav:
+    - Home: "index.md"
+    - About: "about.md"
+    - Frameworks: "frameworks"
+    - Micro Controller: microController
+    - Language: "lang"

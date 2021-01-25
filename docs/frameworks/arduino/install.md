@@ -1,5 +1,5 @@
 {% import "variables.md" as glob %}
-{% import "framework/arduino/variables.md" as var %}
+{% import "frameworks/arduino/variables.md" as var %}
 # Cara install {{ arduino }}
 
 {{ var.arduIde }} bisa diinstall di PC atau juga bisa digunakan secara cloud (internet). Tentu saja untuk warga minim quota cara offline lebih baik dibanding cara cloud hehe.

@@ -1,0 +1,7 @@
+nav:
+    - Hello World: helloWorld.md
+    - Armstrong Number: armstrongNumber.md
+    - Darts: darts.md
+    - Resistor Color: resistorColor.md
+    - Resistor Color Duo: resistorColorDuo.md
+    - Resistor Color Trio: resistorColorTrio.md

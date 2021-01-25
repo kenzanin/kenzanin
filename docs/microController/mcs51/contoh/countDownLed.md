@@ -1,4 +1,4 @@
-# Count Down Led
+# Count Down Led C
 
 # Intro 
 Pogram ini akan mengeluarkan nilai 255(0xFF) - 0(0x00) pada port P1.

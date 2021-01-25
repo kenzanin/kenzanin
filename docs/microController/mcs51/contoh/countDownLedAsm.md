@@ -1,4 +1,4 @@
-# Intro 
+# Count Down Led Assembly 
 
 Sama seperti contoh [Count Down Led C](countDownLed.md) cuman ini pakai assembly.
 
@@ -16,7 +16,7 @@ delay:
 main:
     mov P1,#0xff
 
-    mov R0,#0x30  ; isi variable var01 dengan nilai 255
+    mov R0,#var01  ; isi variable var01 dengan nilai 255
     mov @R0,#255  ; di dalam asm kayak gini cara isi variable
                   ; ndak bisa langsung hehe.
 

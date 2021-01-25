@@ -1,0 +1,8 @@
+nav:
+    - Intro: intro.md
+    - Hardware: hardware.md
+    - Software: software.md
+    - SDCC: sdcc.md
+    - Hello World Assembly: helloWorldAsm.md
+    - Hello World C: helloWorldC.md
+    - Contoh: contoh
