@@ -1,0 +1,5 @@
+nav:
+    - Intro: intro.md
+    - Install: install.md
+    - Lazarus IDE: ide.md
+    - Contoh: contoh
