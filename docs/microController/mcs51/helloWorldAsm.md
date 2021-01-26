@@ -26,6 +26,6 @@ ketik atau copas code diatas pada {{var.ide}} dan tekan "Compile"(F11) jika tida
 Perhatikan panel "Simulator" pada bagian "P1" nilai dari HEX dan BIN akan berubah-ubah saat pogram sampai pada baris `#!asm setb P1.0` dan `#!asm clr P1.0` jika program ini dimasukkan atau di downloadkan pada {{var.at89}} maka teganan dari P1.0 akan berubah dari 0v ke 5v dan kembali lagi.
 
 ## Materi Lanjutan
-Untuk belajar lebih banyak tentang assembly pada {{var.at89}} silahkan dilanjutkan pada ["Assembly 8051"](../lang/asm8051/pengenalan.md)
+Untuk belajar lebih banyak tentang assembly pada {{var.at89}} silahkan dilanjutkan pada ["Assembly 8051"](contoh/)
 
 Goodluck.

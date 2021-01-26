@@ -48,6 +48,6 @@ Jika sesuai dengan urutan maka hasil nya seperti dibawah ini.
 ```
 Copas atau ketik ulang code diatas dan tekan F11 untuk compile, jika tidak ada pesan error pada panel message, maka bisa lanjut kemode debug dengan menekan tombol F5, jalankan pogram baris per baris dengan menekan tombol F6.
 
-Untuk contoh-contoh yang lebih menarik bisa dilanjutkan di ["MCS51 C"](../lang/mcs51c/intro.md)
+Untuk contoh-contoh yang lebih menarik bisa dilanjutkan di ["MCS51 C"](intro.md)
 
 Goodluck

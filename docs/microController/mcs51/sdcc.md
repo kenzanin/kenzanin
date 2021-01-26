@@ -3,7 +3,7 @@
 
 # SDCC
 
-Ada beberapa software C compiler untuk {{loc.at89}} seperti yang sudah dijelaskan pada document ["MCS 51 Software"](../../mcs51/software.md). Pada document ini hanya untuk SDCC dikarenakan SDCC merupakan software open source dan dapat di download dengan gratis. 
+Ada beberapa software C compiler untuk {{loc.at89}} seperti yang sudah dijelaskan pada document ["MCS 51 Software"](software.md). Pada document ini hanya untuk SDCC dikarenakan SDCC merupakan software open source dan dapat di download dengan gratis. 
 
 ## Instalasi
 
