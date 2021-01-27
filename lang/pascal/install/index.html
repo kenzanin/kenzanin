@@ -1,4 +1,555 @@
-<!doctype html><html lang=en class=no-js> <head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><link href=https://kenzanin.github.io/lang/pascal/install/ rel=canonical><link rel="shortcut icon" href=../../../assets/images/favicon.png><meta name=generator content="mkdocs-1.1.2, mkdocs-material-6.2.5"><title>Install - Solderen</title><link rel=stylesheet href=../../../assets/stylesheets/main.15aa0b43.min.css><link rel=stylesheet href=../../../assets/stylesheets/palette.75751829.min.css><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link rel=stylesheet href="https://fonts.googleapis.com/css?family=JetBrains+Mono:300,400,400i,700%7Cconsolas&display=fallback"><style>body,input{font-family:"JetBrains Mono",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"consolas",SFMono-Regular,Consolas,Menlo,monospace}</style></head> <body dir=ltr data-md-color-scheme=slate data-md-color-primary data-md-color-accent> <input class=md-toggle data-md-toggle=drawer type=checkbox id=__drawer autocomplete=off> <input class=md-toggle data-md-toggle=search type=checkbox id=__search autocomplete=off> <label class=md-overlay for=__drawer></label> <div data-md-component=skip> <a href=#installasi-fpc class=md-skip> Skip to content </a> </div> <div data-md-component=announce> </div> <header class=md-header data-md-component=header> <nav class="md-header-nav md-grid" aria-label=Header> <a href=https://kenzanin.github.io title=Solderen class="md-header-nav__button md-logo" aria-label=Solderen> <svg xmlns=http://www.w3.org/2000/svg viewbox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg> </a> <label class="md-header-nav__button md-icon" for=__drawer> <svg xmlns=http://www.w3.org/2000/svg viewbox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg> </label> <div class=md-header-nav__title data-md-component=header-title> <div class=md-header-nav__ellipsis> <div class=md-header-nav__topic> <span class=md-ellipsis> Solderen </span> </div> <div class=md-header-nav__topic> <span class=md-ellipsis> Install </span> </div> </div> </div> <label class="md-header-nav__button md-icon" for=__search> <svg xmlns=http://www.w3.org/2000/svg viewbox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg> </label> <div class=md-search data-md-component=search role=dialog> <label class=md-search__overlay for=__search></label> <div class=md-search__inner role=search> <form class=md-search__form name=search> <input type=text class=md-search__input name=query aria-label=Search placeholder=Search autocapitalize=off autocorrect=off autocomplete=off spellcheck=false data-md-component=search-query data-md-state=active required> <label class="md-search__icon md-icon" for=__search> <svg xmlns=http://www.w3.org/2000/svg viewbox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg> <svg xmlns=http://www.w3.org/2000/svg viewbox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg> </label> <button type=reset class="md-search__icon md-icon" aria-label=Clear data-md-component=search-reset tabindex=-1> <svg xmlns=http://www.w3.org/2000/svg viewbox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg> </button> </form> <div class=md-search__output> <div class=md-search__scrollwrap data-md-scrollfix> <div class=md-search-result data-md-component=search-result> <div class=md-search-result__meta> Initializing search </div> <ol class=md-search-result__list></ol> </div> </div> </div> </div> </div> <div class=md-header-nav__source> <a href=https://github.com/kenzanin/kenzanin.github.io/ title="Go to repository" class=md-source> <div class="md-source__icon md-icon"> <svg xmlns=http://www.w3.org/2000/svg viewbox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg> </div> <div class=md-source__repository> GitHub </div> </a> </div> </nav> </header> <div class=md-container data-md-component=container> <main class=md-main data-md-component=main> <div class="md-main__inner md-grid"> <div class="md-sidebar md-sidebar--primary" data-md-component=navigation> <div class=md-sidebar__scrollwrap> <div class=md-sidebar__inner> <nav class="md-nav md-nav--primary" aria-label=Navigation data-md-level=0> <label class=md-nav__title for=__drawer> <a href=https://kenzanin.github.io title=Solderen class="md-nav__button md-logo" aria-label=Solderen> <svg xmlns=http://www.w3.org/2000/svg viewbox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg> </a> Solderen </label> <div class=md-nav__source> <a href=https://github.com/kenzanin/kenzanin.github.io/ title="Go to repository" class=md-source> <div class="md-source__icon md-icon"> <svg xmlns=http://www.w3.org/2000/svg viewbox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg> </div> <div class=md-source__repository> GitHub </div> </a> </div> <ul class=md-nav__list data-md-scrollfix> <li class=md-nav__item> <a href=../../.. class=md-nav__link> Home </a> </li> <li class=md-nav__item> <a href=../../../about/ class=md-nav__link> About </a> </li> <li class="md-nav__item md-nav__item--nested"> <input class="md-nav__toggle md-toggle" data-md-toggle=nav-3 type=checkbox id=nav-3> <label class=md-nav__link for=nav-3> Frameworks <span class="md-nav__icon md-icon"></span> </label> <nav class=md-nav aria-label=Frameworks data-md-level=1> <label class=md-nav__title for=nav-3> <span class="md-nav__icon md-icon"></span> Frameworks </label> <ul class=md-nav__list data-md-scrollfix> <li class="md-nav__item md-nav__item--nested"> <input class="md-nav__toggle md-toggle" data-md-toggle=nav-3-1 type=checkbox id=nav-3-1> <label class=md-nav__link for=nav-3-1> Arduino <span class="md-nav__icon md-icon"></span> </label> <nav class=md-nav aria-label=Arduino data-md-level=2> <label class=md-nav__title for=nav-3-1> <span class="md-nav__icon md-icon"></span> Arduino </label> <ul class=md-nav__list data-md-scrollfix> <li class=md-nav__item> <a href=../../../frameworks/arduino/intro/ class=md-nav__link> Intro </a> </li> <li class=md-nav__item> <a href=../../../frameworks/arduino/install/ class=md-nav__link> Install </a> </li> <li class=md-nav__item> <a href=../../../frameworks/arduino/setupProject/ class=md-nav__link> Setup Project </a> </li> <li class="md-nav__item md-nav__item--nested"> <input class="md-nav__toggle md-toggle" data-md-toggle=nav-3-1-4 type=checkbox id=nav-3-1-4> <label class=md-nav__link for=nav-3-1-4> Contoh <span class="md-nav__icon md-icon"></span> </label> <nav class=md-nav aria-label=Contoh data-md-level=3> <label class=md-nav__title for=nav-3-1-4> <span class="md-nav__icon md-icon"></span> Contoh </label> <ul class=md-nav__list data-md-scrollfix> <li class=md-nav__item> <a href=../../../frameworks/arduino/contoh/blink/ class=md-nav__link> Blink alias Hello World </a> </li> <li class=md-nav__item> <a href=../../../frameworks/arduino/contoh/digitalReadSerial/ class=md-nav__link> Digital Read Serial </a> </li> </ul> </nav> </li> </ul> </nav> </li> <li class="md-nav__item md-nav__item--nested"> <input class="md-nav__toggle md-toggle" data-md-toggle=nav-3-2 type=checkbox id=nav-3-2> <label class=md-nav__link for=nav-3-2> PlatformIo <span class="md-nav__icon md-icon"></span> </label> <nav class=md-nav aria-label=PlatformIo data-md-level=2> <label class=md-nav__title for=nav-3-2> <span class="md-nav__icon md-icon"></span> PlatformIo </label> <ul class=md-nav__list data-md-scrollfix> <li class=md-nav__item> <a href=../../../frameworks/platformio/intro/ class=md-nav__link> Intro </a> </li> </ul> </nav> </li> </ul> </nav> </li> <li class="md-nav__item md-nav__item--nested"> <input class="md-nav__toggle md-toggle" data-md-toggle=nav-4 type=checkbox id=nav-4> <label class=md-nav__link for=nav-4> Micro Controller <span class="md-nav__icon md-icon"></span> </label> <nav class=md-nav aria-label="Micro Controller" data-md-level=1> <label class=md-nav__title for=nav-4> <span class="md-nav__icon md-icon"></span> Micro Controller </label> <ul class=md-nav__list data-md-scrollfix> <li class=md-nav__item> <a href=../../../avr class=md-nav__link> AVR </a> </li> <li class=md-nav__item> <a href=../../../esp class=md-nav__link> ESP </a> </li> <li class="md-nav__item md-nav__item--nested"> <input class="md-nav__toggle md-toggle" data-md-toggle=nav-4-3 type=checkbox id=nav-4-3> <label class=md-nav__link for=nav-4-3> MCS51 <span class="md-nav__icon md-icon"></span> </label> <nav class=md-nav aria-label=MCS51 data-md-level=2> <label class=md-nav__title for=nav-4-3> <span class="md-nav__icon md-icon"></span> MCS51 </label> <ul class=md-nav__list data-md-scrollfix> <li class=md-nav__item> <a href=../../../microController/mcs51/intro/ class=md-nav__link> Intro </a> </li> <li class=md-nav__item> <a href=../../../microController/mcs51/hardware/ class=md-nav__link> Hardware </a> </li> <li class=md-nav__item> <a href=../../../microController/mcs51/software/ class=md-nav__link> Software </a> </li> <li class=md-nav__item> <a href=../../../microController/mcs51/sdcc/ class=md-nav__link> SDCC </a> </li> <li class=md-nav__item> <a href=../../../microController/mcs51/helloWorldAsm/ class=md-nav__link> Hello World Assembly </a> </li> <li class=md-nav__item> <a href=../../../microController/mcs51/helloWorldC/ class=md-nav__link> Hello World C </a> </li> <li class="md-nav__item md-nav__item--nested"> <input class="md-nav__toggle md-toggle" data-md-toggle=nav-4-3-7 type=checkbox id=nav-4-3-7> <label class=md-nav__link for=nav-4-3-7> Contoh <span class="md-nav__icon md-icon"></span> </label> <nav class=md-nav aria-label=Contoh data-md-level=3> <label class=md-nav__title for=nav-4-3-7> <span class="md-nav__icon md-icon"></span> Contoh </label> <ul class=md-nav__list data-md-scrollfix> <li class=md-nav__item> <a href=../../../microController/mcs51/contoh/countDownLedAsm/ class=md-nav__link> Count Down Led Asm </a> </li> <li class=md-nav__item> <a href=../../../microController/mcs51/contoh/countDownLed/ class=md-nav__link> Count Down Led C </a> </li> <li class=md-nav__item> <a href=../../../microController/mcs51/contoh/countUpLedAsm/ class=md-nav__link> Count Up Led Asm </a> </li> <li class=md-nav__item> <a href=../../../microController/mcs51/contoh/countUpLed/ class=md-nav__link> Count Up Led C </a> </li> </ul> </nav> </li> </ul> </nav> </li> <li class=md-nav__item> <a href=../../../stm32 class=md-nav__link> Stm32 </a> </li> </ul> </nav> </li> <li class="md-nav__item md-nav__item--nested"> <input class="md-nav__toggle md-toggle" data-md-toggle=nav-5 type=checkbox id=nav-5> <label class=md-nav__link for=nav-5> Linux <span class="md-nav__icon md-icon"></span> </label> <nav class=md-nav aria-label=Linux data-md-level=1> <label class=md-nav__title for=nav-5> <span class="md-nav__icon md-icon"></span> Linux </label> <ul class=md-nav__list data-md-scrollfix> <li class="md-nav__item md-nav__item--nested"> <input class="md-nav__toggle md-toggle" data-md-toggle=nav-5-1 type=checkbox id=nav-5-1> <label class=md-nav__link for=nav-5-1> Artix <span class="md-nav__icon md-icon"></span> </label> <nav class=md-nav aria-label=Artix data-md-level=2> <label class=md-nav__title for=nav-5-1> <span class="md-nav__icon md-icon"></span> Artix </label> <ul class=md-nav__list data-md-scrollfix> <li class=md-nav__item> <a href=../../../linux/artix/pengenalan/ class=md-nav__link> Pengenalan </a> </li> </ul> </nav> </li> </ul> </nav> </li> <li class="md-nav__item md-nav__item--active md-nav__item--nested"> <input class="md-nav__toggle md-toggle" data-md-toggle=nav-6 type=checkbox id=nav-6 checked> <label class=md-nav__link for=nav-6> Language <span class="md-nav__icon md-icon"></span> </label> <nav class=md-nav aria-label=Language data-md-level=1> <label class=md-nav__title for=nav-6> <span class="md-nav__icon md-icon"></span> Language </label> <ul class=md-nav__list data-md-scrollfix> <li class="md-nav__item md-nav__item--nested"> <input class="md-nav__toggle md-toggle" data-md-toggle=nav-6-1 type=checkbox id=nav-6-1> <label class=md-nav__link for=nav-6-1> C <span class="md-nav__icon md-icon"></span> </label> <nav class=md-nav aria-label=C data-md-level=2> <label class=md-nav__title for=nav-6-1> <span class="md-nav__icon md-icon"></span> C </label> <ul class=md-nav__list data-md-scrollfix> <li class=md-nav__item> <a href=../../clang/intro/ class=md-nav__link> Intro </a> </li> <li class=md-nav__item> <a href=../../clang/install/ class=md-nav__link> Install </a> </li> <li class="md-nav__item md-nav__item--nested"> <input class="md-nav__toggle md-toggle" data-md-toggle=nav-6-1-3 type=checkbox id=nav-6-1-3> <label class=md-nav__link for=nav-6-1-3> Contoh <span class="md-nav__icon md-icon"></span> </label> <nav class=md-nav aria-label=Contoh data-md-level=3> <label class=md-nav__title for=nav-6-1-3> <span class="md-nav__icon md-icon"></span> Contoh </label> <ul class=md-nav__list data-md-scrollfix> <li class=md-nav__item> <a href=../../clang/contoh/helloWorld/ class=md-nav__link> Hello World </a> </li> <li class=md-nav__item> <a href=../../clang/contoh/armstrongNumber/ class=md-nav__link> Armstrong Number </a> </li> <li class=md-nav__item> <a href=../../clang/contoh/darts/ class=md-nav__link> Darts </a> </li> <li class=md-nav__item> <a href=../../clang/contoh/resistorColor/ class=md-nav__link> Resistor Color </a> </li> <li class=md-nav__item> <a href=../../clang/contoh/resistorColorDuo/ class=md-nav__link> Resistor Color Duo </a> </li> <li class=md-nav__item> <a href=../../clang/contoh/resistorColorTrio/ class=md-nav__link> Resistor Color Trio </a> </li> </ul> </nav> </li> </ul> </nav> </li> <li class="md-nav__item md-nav__item--active md-nav__item--nested"> <input class="md-nav__toggle md-toggle" data-md-toggle=nav-6-2 type=checkbox id=nav-6-2 checked> <label class=md-nav__link for=nav-6-2> Pascal <span class="md-nav__icon md-icon"></span> </label> <nav class=md-nav aria-label=Pascal data-md-level=2> <label class=md-nav__title for=nav-6-2> <span class="md-nav__icon md-icon"></span> Pascal </label> <ul class=md-nav__list data-md-scrollfix> <li class=md-nav__item> <a href=../intro/ class=md-nav__link> Intro </a> </li> <li class="md-nav__item md-nav__item--active"> <input class="md-nav__toggle md-toggle" data-md-toggle=toc type=checkbox id=__toc> <a href=./ class="md-nav__link md-nav__link--active"> Install </a> </li> <li class=md-nav__item> <a href=../ide/ class=md-nav__link> Lazarus IDE </a> </li> <li class="md-nav__item md-nav__item--nested"> <input class="md-nav__toggle md-toggle" data-md-toggle=nav-6-2-4 type=checkbox id=nav-6-2-4> <label class=md-nav__link for=nav-6-2-4> Contoh <span class="md-nav__icon md-icon"></span> </label> <nav class=md-nav aria-label=Contoh data-md-level=3> <label class=md-nav__title for=nav-6-2-4> <span class="md-nav__icon md-icon"></span> Contoh </label> <ul class=md-nav__list data-md-scrollfix> <li class=md-nav__item> <a href=../contoh/helloWorld/ class=md-nav__link> Hello World </a> </li> </ul> </nav> </li> </ul> </nav> </li> <li class=md-nav__item> <a href=../../../nim class=md-nav__link> Nim </a> </li> <li class=md-nav__item> <a href=../../../vlang class=md-nav__link> Vlang </a> </li> <li class=md-nav__item> <a href=../../../zig class=md-nav__link> Zig </a> </li> </ul> </nav> </li> </ul> </nav> </div> </div> </div> <div class="md-sidebar md-sidebar--secondary" data-md-component=toc> <div class=md-sidebar__scrollwrap> <div class=md-sidebar__inner> <nav class="md-nav md-nav--secondary" aria-label="Table of contents"> </nav> </div> </div> </div> <div class=md-content> <article class="md-content__inner md-typeset"> <a href=https://github.com/kenzanin/kenzanin.github.io/tree/main/docs/lang/pascal/install.md title="Edit this page" class="md-content__button md-icon"> <svg xmlns=http://www.w3.org/2000/svg viewbox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg> </a> <h1 id=installasi-fpc>Installasi FPC</h1> <hr> <div class=md-source-date> <small> Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">January 26, 2021</span> </small> </div> <h2 id=__comments>Comments</h2> <div id=disqus_thread></div> <script>var disqus_config=function(){this.page.url="https://kenzanin.github.io/lang/pascal/install/",this.page.identifier="/lang/pascal/install/"};window.addEventListener("load",function(){var e=document,i=e.createElement("script");i.src="//kenzanin-github-io.disqus.com/embed.js",i.setAttribute("data-timestamp",+new Date),(e.head||e.body).appendChild(i)})</script> </article> </div> </div> </main> <footer class=md-footer> <div class=md-footer-nav> <nav class="md-footer-nav__inner md-grid" aria-label=Footer> <a href=../intro/ class="md-footer-nav__link md-footer-nav__link--prev" rel=prev> <div class="md-footer-nav__button md-icon"> <svg xmlns=http://www.w3.org/2000/svg viewbox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg> </div> <div class=md-footer-nav__title> <div class=md-ellipsis> <span class=md-footer-nav__direction> Previous </span> Intro </div> </div> </a> <a href=../ide/ class="md-footer-nav__link md-footer-nav__link--next" rel=next> <div class=md-footer-nav__title> <div class=md-ellipsis> <span class=md-footer-nav__direction> Next </span> Lazarus IDE </div> </div> <div class="md-footer-nav__button md-icon"> <svg xmlns=http://www.w3.org/2000/svg viewbox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg> </div> </a> </nav> </div> <div class="md-footer-meta md-typeset"> <div class="md-footer-meta__inner md-grid"> <div class=md-footer-copyright> <div class=md-footer-copyright__highlight> Copyright &copy; 2021 [Suka Isnaini] </div> Made with <a href=https://squidfunk.github.io/mkdocs-material/ target=_blank rel=noopener> Material for MkDocs </a> </div> <div class=md-footer-social> <a href=https://telegram.me/kenzanin target=_blank rel=noopener title=kenzanin class=md-footer-social__link> <svg xmlns=http://www.w3.org/2000/svg viewbox="0 0 496 512"><path d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm121.8 169.9l-40.7 191.8c-3 13.6-11.1 16.9-22.4 10.5l-62-45.7-29.9 28.8c-3.3 3.3-6.1 6.1-12.5 6.1l4.4-63.1 114.9-103.8c5-4.4-1.1-6.9-7.7-2.5l-142 89.4-61.2-19.1c-13.3-4.2-13.6-13.3 2.8-19.7l239.1-92.2c11.1-4 20.8 2.7 17.2 19.5z"/></svg> </a> <a href=https://wa.link/q6rses target=_blank rel=noopener title="suka isnaini" class=md-footer-social__link> <svg xmlns=http://www.w3.org/2000/svg viewbox="0 0 448 512"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg> </a> <a href=mailto:kenzanin@gmail.com target=_blank rel=noopener title=kenzanin class=md-footer-social__link> <svg xmlns=http://www.w3.org/2000/svg viewbox="0 0 512 512"><path d="M256 8C118.941 8 8 118.919 8 256c0 137.059 110.919 248 248 248 48.154 0 95.342-14.14 135.408-40.223 12.005-7.815 14.625-24.288 5.552-35.372l-10.177-12.433c-7.671-9.371-21.179-11.667-31.373-5.129C325.92 429.757 291.314 440 256 440c-101.458 0-184-82.542-184-184S154.542 72 256 72c100.139 0 184 57.619 184 160 0 38.786-21.093 79.742-58.17 83.693-17.349-.454-16.91-12.857-13.476-30.024l23.433-121.11C394.653 149.75 383.308 136 368.225 136h-44.981a13.518 13.518 0 00-13.432 11.993l-.01.092c-14.697-17.901-40.448-21.775-59.971-21.775-74.58 0-137.831 62.234-137.831 151.46 0 65.303 36.785 105.87 96 105.87 26.984 0 57.369-15.637 74.991-38.333 9.522 34.104 40.613 34.103 70.71 34.103C462.609 379.41 504 307.798 504 232 504 95.653 394.023 8 256 8zm-21.68 304.43c-22.249 0-36.07-15.623-36.07-40.771 0-44.993 30.779-72.729 58.63-72.729 22.292 0 35.601 15.241 35.601 40.77 0 45.061-33.875 72.73-58.161 72.73z"/></svg> </a> </div> </div> </div> </footer> </div> <script src=../../../assets/javascripts/vendor.93c04032.min.js></script> <script src=../../../assets/javascripts/bundle.83e5331e.min.js></script><script id=__lang type=application/json>{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script> <script>
+<!doctype html><html lang=en class=no-js> <head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><link href=https://kenzanin.github.io/lang/pascal/install/ rel=canonical><link rel="shortcut icon" href=../../../assets/images/favicon.png><meta name=generator content="mkdocs-1.1.2, mkdocs-material-6.2.5"><title>Install - Solderen</title><link rel=stylesheet href=../../../assets/stylesheets/main.15aa0b43.min.css><link rel=stylesheet href=../../../assets/stylesheets/palette.75751829.min.css><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link rel=stylesheet href="https://fonts.googleapis.com/css?family=JetBrains+Mono:300,400,400i,700%7Cconsolas&display=fallback"><style>body,input{font-family:"JetBrains Mono",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"consolas",SFMono-Regular,Consolas,Menlo,monospace}</style><script>window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga("create","G-D8BVSGRXC8","auto"),ga("set","anonymizeIp",!0),ga("send","pageview"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){if(this.value){var e=document.location.pathname;ga("send","pageview",e+"?q="+this.value)}})}),document.addEventListener("DOMContentSwitch",function(){ga("send","pageview",document.location.pathname)})</script><script async src=https://www.google-analytics.com/analytics.js></script></head> <body dir=ltr data-md-color-scheme=slate data-md-color-primary data-md-color-accent> <input class=md-toggle data-md-toggle=drawer type=checkbox id=__drawer autocomplete=off> <input class=md-toggle data-md-toggle=search type=checkbox id=__search autocomplete=off> <label class=md-overlay for=__drawer></label> <div data-md-component=skip> <a href=#installasi-fpc class=md-skip> Skip to content </a> </div> <div data-md-component=announce> </div> <header class=md-header data-md-component=header> <nav class="md-header-nav md-grid" aria-label=Header> <a href=https://kenzanin.github.io title=Solderen class="md-header-nav__button md-logo" aria-label=Solderen> <svg xmlns=http://www.w3.org/2000/svg viewbox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg> </a> <label class="md-header-nav__button md-icon" for=__drawer> <svg xmlns=http://www.w3.org/2000/svg viewbox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg> </label> <div class=md-header-nav__title data-md-component=header-title> <div class=md-header-nav__ellipsis> <div class=md-header-nav__topic> <span class=md-ellipsis> Solderen </span> </div> <div class=md-header-nav__topic> <span class=md-ellipsis> Install </span> </div> </div> </div> <label class="md-header-nav__button md-icon" for=__search> <svg xmlns=http://www.w3.org/2000/svg viewbox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg> </label> <div class=md-search data-md-component=search role=dialog> <label class=md-search__overlay for=__search></label> <div class=md-search__inner role=search> <form class=md-search__form name=search> <input type=text class=md-search__input name=query aria-label=Search placeholder=Search autocapitalize=off autocorrect=off autocomplete=off spellcheck=false data-md-component=search-query data-md-state=active required> <label class="md-search__icon md-icon" for=__search> <svg xmlns=http://www.w3.org/2000/svg viewbox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg> <svg xmlns=http://www.w3.org/2000/svg viewbox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg> </label> <button type=reset class="md-search__icon md-icon" aria-label=Clear data-md-component=search-reset tabindex=-1> <svg xmlns=http://www.w3.org/2000/svg viewbox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg> </button> </form> <div class=md-search__output> <div class=md-search__scrollwrap data-md-scrollfix> <div class=md-search-result data-md-component=search-result> <div class=md-search-result__meta> Initializing search </div> <ol class=md-search-result__list></ol> </div> </div> </div> </div> </div> <div class=md-header-nav__source> <a href=https://github.com/kenzanin/kenzanin.github.io/ title="Go to repository" class=md-source> <div class="md-source__icon md-icon"> <svg xmlns=http://www.w3.org/2000/svg viewbox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg> </div> <div class=md-source__repository> GitHub </div> </a> </div> </nav> </header> <div class=md-container data-md-component=container> <main class=md-main data-md-component=main> <div class="md-main__inner md-grid"> <div class="md-sidebar md-sidebar--primary" data-md-component=navigation> <div class=md-sidebar__scrollwrap> <div class=md-sidebar__inner> <nav class="md-nav md-nav--primary" aria-label=Navigation data-md-level=0> <label class=md-nav__title for=__drawer> <a href=https://kenzanin.github.io title=Solderen class="md-nav__button md-logo" aria-label=Solderen> <svg xmlns=http://www.w3.org/2000/svg viewbox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg> </a> Solderen </label> <div class=md-nav__source> <a href=https://github.com/kenzanin/kenzanin.github.io/ title="Go to repository" class=md-source> <div class="md-source__icon md-icon"> <svg xmlns=http://www.w3.org/2000/svg viewbox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg> </div> <div class=md-source__repository> GitHub </div> </a> </div> <ul class=md-nav__list data-md-scrollfix> <li class=md-nav__item> <a href=../../.. class=md-nav__link> Home </a> </li> <li class=md-nav__item> <a href=../../../about/ class=md-nav__link> About </a> </li> <li class="md-nav__item md-nav__item--nested"> <input class="md-nav__toggle md-toggle" data-md-toggle=nav-3 type=checkbox id=nav-3> <label class=md-nav__link for=nav-3> Frameworks <span class="md-nav__icon md-icon"></span> </label> <nav class=md-nav aria-label=Frameworks data-md-level=1> <label class=md-nav__title for=nav-3> <span class="md-nav__icon md-icon"></span> Frameworks </label> <ul class=md-nav__list data-md-scrollfix> <li class="md-nav__item md-nav__item--nested"> <input class="md-nav__toggle md-toggle" data-md-toggle=nav-3-1 type=checkbox id=nav-3-1> <label class=md-nav__link for=nav-3-1> Arduino <span class="md-nav__icon md-icon"></span> </label> <nav class=md-nav aria-label=Arduino data-md-level=2> <label class=md-nav__title for=nav-3-1> <span class="md-nav__icon md-icon"></span> Arduino </label> <ul class=md-nav__list data-md-scrollfix> <li class=md-nav__item> <a href=../../../frameworks/arduino/intro/ class=md-nav__link> Intro </a> </li> <li class=md-nav__item> <a href=../../../frameworks/arduino/install/ class=md-nav__link> Install </a> </li> <li class=md-nav__item> <a href=../../../frameworks/arduino/setupProject/ class=md-nav__link> Setup Project </a> </li> <li class="md-nav__item md-nav__item--nested"> <input class="md-nav__toggle md-toggle" data-md-toggle=nav-3-1-4 type=checkbox id=nav-3-1-4> <label class=md-nav__link for=nav-3-1-4> Contoh <span class="md-nav__icon md-icon"></span> </label> <nav class=md-nav aria-label=Contoh data-md-level=3> <label class=md-nav__title for=nav-3-1-4> <span class="md-nav__icon md-icon"></span> Contoh </label> <ul class=md-nav__list data-md-scrollfix> <li class=md-nav__item> <a href=../../../frameworks/arduino/contoh/blink/ class=md-nav__link> Blink alias Hello World </a> </li> <li class=md-nav__item> <a href=../../../frameworks/arduino/contoh/digitalReadSerial/ class=md-nav__link> Digital Read Serial </a> </li> </ul> </nav> </li> </ul> </nav> </li> <li class="md-nav__item md-nav__item--nested"> <input class="md-nav__toggle md-toggle" data-md-toggle=nav-3-2 type=checkbox id=nav-3-2> <label class=md-nav__link for=nav-3-2> PlatformIo <span class="md-nav__icon md-icon"></span> </label> <nav class=md-nav aria-label=PlatformIo data-md-level=2> <label class=md-nav__title for=nav-3-2> <span class="md-nav__icon md-icon"></span> PlatformIo </label> <ul class=md-nav__list data-md-scrollfix> <li class=md-nav__item> <a href=../../../frameworks/platformio/intro/ class=md-nav__link> Intro </a> </li> </ul> </nav> </li> </ul> </nav> </li> <li class="md-nav__item md-nav__item--nested"> <input class="md-nav__toggle md-toggle" data-md-toggle=nav-4 type=checkbox id=nav-4> <label class=md-nav__link for=nav-4> Micro Controller <span class="md-nav__icon md-icon"></span> </label> <nav class=md-nav aria-label="Micro Controller" data-md-level=1> <label class=md-nav__title for=nav-4> <span class="md-nav__icon md-icon"></span> Micro Controller </label> <ul class=md-nav__list data-md-scrollfix> <li class=md-nav__item> <a href=../../../avr class=md-nav__link> AVR </a> </li> <li class=md-nav__item> <a href=../../../esp class=md-nav__link> ESP </a> </li> <li class="md-nav__item md-nav__item--nested"> <input class="md-nav__toggle md-toggle" data-md-toggle=nav-4-3 type=checkbox id=nav-4-3> <label class=md-nav__link for=nav-4-3> MCS51 <span class="md-nav__icon md-icon"></span> </label> <nav class=md-nav aria-label=MCS51 data-md-level=2> <label class=md-nav__title for=nav-4-3> <span class="md-nav__icon md-icon"></span> MCS51 </label> <ul class=md-nav__list data-md-scrollfix> <li class=md-nav__item> <a href=../../../microController/mcs51/intro/ class=md-nav__link> Intro </a> </li> <li class=md-nav__item> <a href=../../../microController/mcs51/hardware/ class=md-nav__link> Hardware </a> </li> <li class=md-nav__item> <a href=../../../microController/mcs51/software/ class=md-nav__link> Software </a> </li> <li class=md-nav__item> <a href=../../../microController/mcs51/sdcc/ class=md-nav__link> SDCC </a> </li> <li class=md-nav__item> <a href=../../../microController/mcs51/helloWorldAsm/ class=md-nav__link> Hello World Assembly </a> </li> <li class=md-nav__item> <a href=../../../microController/mcs51/helloWorldC/ class=md-nav__link> Hello World C </a> </li> <li class="md-nav__item md-nav__item--nested"> <input class="md-nav__toggle md-toggle" data-md-toggle=nav-4-3-7 type=checkbox id=nav-4-3-7> <label class=md-nav__link for=nav-4-3-7> Contoh <span class="md-nav__icon md-icon"></span> </label> <nav class=md-nav aria-label=Contoh data-md-level=3> <label class=md-nav__title for=nav-4-3-7> <span class="md-nav__icon md-icon"></span> Contoh </label> <ul class=md-nav__list data-md-scrollfix> <li class=md-nav__item> <a href=../../../microController/mcs51/contoh/countDownLedAsm/ class=md-nav__link> Count Down Led Asm </a> </li> <li class=md-nav__item> <a href=../../../microController/mcs51/contoh/countDownLed/ class=md-nav__link> Count Down Led C </a> </li> <li class=md-nav__item> <a href=../../../microController/mcs51/contoh/countUpLedAsm/ class=md-nav__link> Count Up Led Asm </a> </li> <li class=md-nav__item> <a href=../../../microController/mcs51/contoh/countUpLed/ class=md-nav__link> Count Up Led C </a> </li> </ul> </nav> </li> </ul> </nav> </li> <li class=md-nav__item> <a href=../../../stm32 class=md-nav__link> Stm32 </a> </li> </ul> </nav> </li> <li class="md-nav__item md-nav__item--nested"> <input class="md-nav__toggle md-toggle" data-md-toggle=nav-5 type=checkbox id=nav-5> <label class=md-nav__link for=nav-5> Linux <span class="md-nav__icon md-icon"></span> </label> <nav class=md-nav aria-label=Linux data-md-level=1> <label class=md-nav__title for=nav-5> <span class="md-nav__icon md-icon"></span> Linux </label> <ul class=md-nav__list data-md-scrollfix> <li class="md-nav__item md-nav__item--nested"> <input class="md-nav__toggle md-toggle" data-md-toggle=nav-5-1 type=checkbox id=nav-5-1> <label class=md-nav__link for=nav-5-1> Artix <span class="md-nav__icon md-icon"></span> </label> <nav class=md-nav aria-label=Artix data-md-level=2> <label class=md-nav__title for=nav-5-1> <span class="md-nav__icon md-icon"></span> Artix </label> <ul class=md-nav__list data-md-scrollfix> <li class=md-nav__item> <a href=../../../linux/artix/pengenalan/ class=md-nav__link> Pengenalan </a> </li> </ul> </nav> </li> </ul> </nav> </li> <li class="md-nav__item md-nav__item--active md-nav__item--nested"> <input class="md-nav__toggle md-toggle" data-md-toggle=nav-6 type=checkbox id=nav-6 checked> <label class=md-nav__link for=nav-6> Language <span class="md-nav__icon md-icon"></span> </label> <nav class=md-nav aria-label=Language data-md-level=1> <label class=md-nav__title for=nav-6> <span class="md-nav__icon md-icon"></span> Language </label> <ul class=md-nav__list data-md-scrollfix> <li class="md-nav__item md-nav__item--nested"> <input class="md-nav__toggle md-toggle" data-md-toggle=nav-6-1 type=checkbox id=nav-6-1> <label class=md-nav__link for=nav-6-1> C <span class="md-nav__icon md-icon"></span> </label> <nav class=md-nav aria-label=C data-md-level=2> <label class=md-nav__title for=nav-6-1> <span class="md-nav__icon md-icon"></span> C </label> <ul class=md-nav__list data-md-scrollfix> <li class=md-nav__item> <a href=../../clang/intro/ class=md-nav__link> Intro </a> </li> <li class=md-nav__item> <a href=../../clang/install/ class=md-nav__link> Install </a> </li> <li class="md-nav__item md-nav__item--nested"> <input class="md-nav__toggle md-toggle" data-md-toggle=nav-6-1-3 type=checkbox id=nav-6-1-3> <label class=md-nav__link for=nav-6-1-3> Contoh <span class="md-nav__icon md-icon"></span> </label> <nav class=md-nav aria-label=Contoh data-md-level=3> <label class=md-nav__title for=nav-6-1-3> <span class="md-nav__icon md-icon"></span> Contoh </label> <ul class=md-nav__list data-md-scrollfix> <li class=md-nav__item> <a href=../../clang/contoh/helloWorld/ class=md-nav__link> Hello World </a> </li> <li class=md-nav__item> <a href=../../clang/contoh/armstrongNumber/ class=md-nav__link> Armstrong Number </a> </li> <li class=md-nav__item> <a href=../../clang/contoh/darts/ class=md-nav__link> Darts </a> </li> <li class=md-nav__item> <a href=../../clang/contoh/resistorColor/ class=md-nav__link> Resistor Color </a> </li> <li class=md-nav__item> <a href=../../clang/contoh/resistorColorDuo/ class=md-nav__link> Resistor Color Duo </a> </li> <li class=md-nav__item> <a href=../../clang/contoh/resistorColorTrio/ class=md-nav__link> Resistor Color Trio </a> </li> </ul> </nav> </li> </ul> </nav> </li> <li class="md-nav__item md-nav__item--active md-nav__item--nested"> <input class="md-nav__toggle md-toggle" data-md-toggle=nav-6-2 type=checkbox id=nav-6-2 checked> <label class=md-nav__link for=nav-6-2> Pascal <span class="md-nav__icon md-icon"></span> </label> <nav class=md-nav aria-label=Pascal data-md-level=2> <label class=md-nav__title for=nav-6-2> <span class="md-nav__icon md-icon"></span> Pascal </label> <ul class=md-nav__list data-md-scrollfix> <li class=md-nav__item> <a href=../intro/ class=md-nav__link> Intro </a> </li> <li class="md-nav__item md-nav__item--active"> <input class="md-nav__toggle md-toggle" data-md-toggle=toc type=checkbox id=__toc> <label class="md-nav__link md-nav__link--active" for=__toc> Install <span class="md-nav__icon md-icon"></span> </label> <a href=./ class="md-nav__link md-nav__link--active"> Install </a> <nav class="md-nav md-nav--secondary" aria-label="Table of contents"> <label class=md-nav__title for=__toc> <span class="md-nav__icon md-icon"></span> Table of contents </label> <ul class=md-nav__list data-md-scrollfix> <li class=md-nav__item> <a href=#download-package class=md-nav__link> Download package </a> </li> <li class=md-nav__item> <a href=#install class=md-nav__link> Install </a> <nav class=md-nav aria-label=Install> <ul class=md-nav__list> <li class=md-nav__item> <a href=#linux class=md-nav__link> Linux </a> </li> <li class=md-nav__item> <a href=#windows class=md-nav__link> Windows </a> </li> </ul> </nav> </li> <li class=md-nav__item> <a href=#test class=md-nav__link> Test </a> </li> </ul> </nav> </li> <li class=md-nav__item> <a href=../textIde/ class=md-nav__link> Text IDE </a> </li> <li class=md-nav__item> <a href=../ide/ class=md-nav__link> Lazarus IDE </a> </li> <li class="md-nav__item md-nav__item--nested"> <input class="md-nav__toggle md-toggle" data-md-toggle=nav-6-2-5 type=checkbox id=nav-6-2-5> <label class=md-nav__link for=nav-6-2-5> Contoh <span class="md-nav__icon md-icon"></span> </label> <nav class=md-nav aria-label=Contoh data-md-level=3> <label class=md-nav__title for=nav-6-2-5> <span class="md-nav__icon md-icon"></span> Contoh </label> <ul class=md-nav__list data-md-scrollfix> <li class=md-nav__item> <a href=../contoh/helloWorld/ class=md-nav__link> Hello World </a> </li> </ul> </nav> </li> </ul> </nav> </li> <li class=md-nav__item> <a href=../../../nim class=md-nav__link> Nim </a> </li> <li class=md-nav__item> <a href=../../../vlang class=md-nav__link> Vlang </a> </li> <li class=md-nav__item> <a href=../../../zig class=md-nav__link> Zig </a> </li> </ul> </nav> </li> </ul> </nav> </div> </div> </div> <div class="md-sidebar md-sidebar--secondary" data-md-component=toc> <div class=md-sidebar__scrollwrap> <div class=md-sidebar__inner> <nav class="md-nav md-nav--secondary" aria-label="Table of contents"> <label class=md-nav__title for=__toc> <span class="md-nav__icon md-icon"></span> Table of contents </label> <ul class=md-nav__list data-md-scrollfix> <li class=md-nav__item> <a href=#download-package class=md-nav__link> Download package </a> </li> <li class=md-nav__item> <a href=#install class=md-nav__link> Install </a> <nav class=md-nav aria-label=Install> <ul class=md-nav__list> <li class=md-nav__item> <a href=#linux class=md-nav__link> Linux </a> </li> <li class=md-nav__item> <a href=#windows class=md-nav__link> Windows </a> </li> </ul> </nav> </li> <li class=md-nav__item> <a href=#test class=md-nav__link> Test </a> </li> </ul> </nav> </div> </div> </div> <div class=md-content> <article class="md-content__inner md-typeset"> <a href=https://github.com/kenzanin/kenzanin.github.io/tree/main/docs/lang/pascal/install.md title="Edit this page" class="md-content__button md-icon"> <svg xmlns=http://www.w3.org/2000/svg viewbox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg> </a> <h1 id=installasi-fpc>Installasi FPC</h1> <h2 id=download-package>Download package</h2> <p>Free Pascal Compiler(FPC) dapat didownload dengan bebas pada situs <a href=https://www.freepascal.org>https://www.freepascal.org</a> terdapat beberapa package binary klo males compile sendiri baik untuk windows, linux, dan mac.</p> <p>Untuk mendownload versi stable gunakan alamat ini</p> <ul> <li><a href=https://www.freepascal.org/download.html>https://www.freepascal.org/download.html</a></li> </ul> <p>Untuk versi devel gunakan alamat ini </p> <ul> <li><a href=https://www.freepascal.org/develop.html>https://www.freepascal.org/develop.html</a></li> </ul> <p>Saya sarankan untuk menggunakan versi stable jika tidak ada keperluan khusus, untuk menghindari permasalahan yang tidak perlu terjadi hehe.</p> <h2 id=install>Install</h2> <p>Sama dengan dokument sebelumnya bagian install di pisah per OS.</p> <h3 id=linux>Linux</h3> <p>Pada Artix linux FPC sudah tersedia di repo jadi tinggal install menggunakan pacman atau yay.</p> <p><code class=highlight>$ pacman -S fpc</code></p> <h3 id=windows>Windows</h3> <p>Download package yang sesuai baik OS dan Arch nya, misal untuk windows 7 keatas dan cpu menggunakan AMD64 (intel atau amd yang bertulisan x64) ada pada alamat dibawah initial</p> <ul> <li><a href=https://www.freepascal.org/down/x86_64/win64.html>https://www.freepascal.org/down/x86_64/win64.html</a></li> </ul> <p>Pilih mirror nya dan download file nya. Untuk install masih sama tinggal next, next, next, yes, next, Finish. hehehe.</p> <h2 id=test>Test</h2> <p>Untuk memastikan FPC sudah terinstall dengan benar buka terminal dan ketik <code>fpc</code></p> <p><table class=highlighttable><tr><td class=linenos><div class=linenodiv><pre><span></span>  1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+ 10
+ 11
+ 12
+ 13
+ 14
+ 15
+ 16
+ 17
+ 18
+ 19
+ 20
+ 21
+ 22
+ 23
+ 24
+ 25
+ 26
+ 27
+ 28
+ 29
+ 30
+ 31
+ 32
+ 33
+ 34
+ 35
+ 36
+ 37
+ 38
+ 39
+ 40
+ 41
+ 42
+ 43
+ 44
+ 45
+ 46
+ 47
+ 48
+ 49
+ 50
+ 51
+ 52
+ 53
+ 54
+ 55
+ 56
+ 57
+ 58
+ 59
+ 60
+ 61
+ 62
+ 63
+ 64
+ 65
+ 66
+ 67
+ 68
+ 69
+ 70
+ 71
+ 72
+ 73
+ 74
+ 75
+ 76
+ 77
+ 78
+ 79
+ 80
+ 81
+ 82
+ 83
+ 84
+ 85
+ 86
+ 87
+ 88
+ 89
+ 90
+ 91
+ 92
+ 93
+ 94
+ 95
+ 96
+ 97
+ 98
+ 99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+210
+211
+212
+213
+214
+215
+216
+217
+218
+219
+220
+221
+222
+223
+224
+225
+226
+227
+228
+229
+230
+231
+232
+233
+234
+235
+236
+237
+238
+239
+240
+241
+242
+243
+244
+245
+246
+247
+248
+249
+250
+251
+252
+253
+254
+255
+256
+257
+258
+259
+260
+261
+262
+263
+264
+265
+266
+267
+268
+269
+270
+271
+272
+273
+274
+275
+276</pre></div></td><td class=code><div class=highlight><pre><span></span><code>$ fpc
+Free Pascal Compiler version <span class=m>3</span>.2.0 <span class=o>[</span><span class=m>2020</span>/10/05<span class=o>]</span> <span class=k>for</span> x86_64
+Copyright <span class=o>(</span>c<span class=o>)</span> <span class=m>1993</span>-2020 by Florian Klaempfl and others
+/usr/bin/fpc <span class=o>[</span>options<span class=o>]</span> &lt;inputfile&gt; <span class=o>[</span>options<span class=o>]</span>
+ Only options valid <span class=k>for</span> the default or selected platform are listed.
+ Put + after a boolean switch option to <span class=nb>enable</span> it, - to disable it.
+  @&lt;x&gt;   Read compiler options from &lt;x&gt; <span class=k>in</span> addition to the default fpc.cfg
+  -a     The compiler does not delete the generated assembler file
+      -a5        Don<span class=s1>&#39;t generate Big Obj COFF files for GNU Binutils older than 2.25 (Windows, NativeNT)</span>
+<span class=s1>      -al        List sourcecode lines in assembler file</span>
+<span class=s1>      -an        List node info in assembler file (-dEXTDEBUG compiler)</span>
+<span class=s1>      -ao        Add an extra option to external assembler call (ignored for internal)</span>
+<span class=s1>      -ap        Use pipes instead of creating temporary assembler files</span>
+<span class=s1>      -ar        List register allocation/release info in assembler file</span>
+<span class=s1>      -at        List temp allocation/release info in assembler file</span>
+<span class=s1>  -A&lt;x&gt;  Output format:</span>
+<span class=s1>      -Adefault  Use default assembler</span>
+<span class=s1>      -Aas       Assemble using GNU AS</span>
+<span class=s1>      -Agas      Assemble using GNU GAS</span>
+<span class=s1>      -Agas-darwin Assemble darwin Mach-O64 using GNU GAS</span>
+<span class=s1>*** press enter ***</span>
+<span class=s1>      -Amasm     Win64 object file using ml64 (Microsoft)</span>
+<span class=s1>      -Apecoff   PE-COFF (Win64) using internal writer</span>
+<span class=s1>      -Aelf      ELF (Linux-64bit) using internal writer</span>
+<span class=s1>      -Ayasm     Assemble using Yasm (experimental)</span>
+<span class=s1>      -Anasm     Assemble using Nasm (experimental)</span>
+<span class=s1>      -Anasmwin64 Assemble Win64 object file using Nasm (experimental)</span>
+<span class=s1>      -Anasmelf  Assemble Linux-64bit object file using Nasm (experimental)</span>
+<span class=s1>      -Anasmdarwin Assemble darwin macho64 object file using Nasm (experimental)</span>
+<span class=s1>  -b     Generate browser info</span>
+<span class=s1>      -bl        Generate local symbol info</span>
+<span class=s1>  -B     Build all modules</span>
+<span class=s1>  -C&lt;x&gt;  Code generation options:</span>
+<span class=s1>      -C3        Turn on ieee error checking for constants</span>
+<span class=s1>      -Ca&lt;x&gt;     Select ABI; see fpc -i or fpc -ia for possible values</span>
+<span class=s1>      -Cb        Generate code for a big-endian variant of the target architecture</span>
+<span class=s1>      -Cc&lt;x&gt;     Set default calling convention to &lt;x&gt;</span>
+<span class=s1>      -CD        Create also dynamic library (not supported)</span>
+<span class=s1>      -Ce        Compilation with emulated floating point opcodes</span>
+<span class=s1>      -Cf&lt;x&gt;     Select fpu instruction set to use; see fpc -i or fpc -if for possible values</span>
+<span class=s1>*** press enter ***</span>
+<span class=s1>      -CF&lt;x&gt;     Minimal floating point constant precision (default, 32, 64)</span>
+<span class=s1>      -Cg        Generate PIC code</span>
+<span class=s1>      -Ch&lt;n&gt;[,m] &lt;n&gt; bytes min heap size (between 1023 and 67107840) and optionally [m] max heap size</span>
+<span class=s1>      -Ci        IO-checking</span>
+<span class=s1>      -Cn        Omit linking stage</span>
+<span class=s1>      -Co        Check overflow of integer operations</span>
+<span class=s1>      -CO        Check for possible overflow of integer operations</span>
+<span class=s1>      -Cp&lt;x&gt;     Select instruction set; see fpc -i or fpc -ic for possible values</span>
+<span class=s1>      -CP&lt;x&gt;=&lt;y&gt;  packing settings</span>
+<span class=s1>         -CPPACKSET=&lt;y&gt;  &lt;y&gt; set allocation: 0, 1 or DEFAULT or NORMAL, 2, 4 and 8</span>
+<span class=s1>         -CPPACKENUM=&lt;y&gt;  &lt;y&gt; enum packing: 0, 1, 2 and 4 or DEFAULT or NORMAL</span>
+<span class=s1>         -CPPACKRECORD=&lt;y&gt;  &lt;y&gt; record packing: 0 or DEFAULT or NORMAL, 1, 2, 4, 8, 16 and 32</span>
+<span class=s1>      -Cr        Range checking</span>
+<span class=s1>      -CR        Verify object method call validity</span>
+<span class=s1>      -Cs&lt;n&gt;     Set stack checking size to &lt;n&gt;</span>
+<span class=s1>      -Ct        Stack checking (for testing only, see manual)</span>
+<span class=s1>      -CT&lt;x&gt;     Target-specific code generation options</span>
+<span class=s1>*** press enter ***</span>
+<span class=s1>         -CTcld                      Emit a CLD instruction before using the x86 string instructions</span>
+<span class=s1>      -CX        Create also smartlinked library</span>
+<span class=s1>  -d&lt;x&gt;  Defines the symbol &lt;x&gt;</span>
+<span class=s1>  -D     Generate a DEF file</span>
+<span class=s1>      -Dd&lt;x&gt;     Set description to &lt;x&gt;</span>
+<span class=s1>      -Dv&lt;x&gt;     Set DLL version to &lt;x&gt;</span>
+<span class=s1>  -e&lt;x&gt;  Set path to executable</span>
+<span class=s1>  -E     Same as -Cn</span>
+<span class=s1>  -fPIC  Same as -Cg</span>
+<span class=s1>  -F&lt;x&gt;  Set file names and paths:</span>
+<span class=s1>      -Fa&lt;x&gt;[,y] (for a program) load units &lt;x&gt; and [y] before uses is parsed</span>
+<span class=s1>      -Fc&lt;x&gt;     Set input codepage to &lt;x&gt;</span>
+<span class=s1>      -FC&lt;x&gt;     Set RC compiler binary name to &lt;x&gt;</span>
+<span class=s1>      -Fd        Disable the compiler&#39;</span>s internal directory cache
+      -FD&lt;x&gt;     Set the directory where to search <span class=k>for</span> compiler utilities
+      -Fe&lt;x&gt;     Redirect error output to &lt;x&gt;
+      -Ff&lt;x&gt;     Add &lt;x&gt; to framework path <span class=o>(</span>Darwin only<span class=o>)</span>
+      -FE&lt;x&gt;     Set exe/unit output path to &lt;x&gt;
+      -Fi&lt;x&gt;     Add &lt;x&gt; to include path
+      -Fl&lt;x&gt;     Add &lt;x&gt; to library path
+      -FL&lt;x&gt;     Use &lt;x&gt; as dynamic linker
+*** press enter ***
+      -Fm&lt;x&gt;     Load unicode conversion table from &lt;x&gt;.txt <span class=k>in</span> the compiler dir
+      -FM&lt;x&gt;     Set the directory where to search <span class=k>for</span> unicode binary files
+      -FN&lt;x&gt;     Add &lt;x&gt; to list of default unit scopes <span class=o>(</span>namespaces<span class=o>)</span>
+      -Fo&lt;x&gt;     Add &lt;x&gt; to object path
+      -Fr&lt;x&gt;     Load error message file &lt;x&gt;
+      -FR&lt;x&gt;     Set resource <span class=o>(</span>.res<span class=o>)</span> linker to &lt;x&gt;
+      -Fu&lt;x&gt;     Add &lt;x&gt; to unit path
+      -FU&lt;x&gt;     Set unit output path to &lt;x&gt;, overrides -FE
+      -FW&lt;x&gt;     Store generated whole-program optimization feedback <span class=k>in</span> &lt;x&gt;
+      -Fw&lt;x&gt;     Load previously stored whole-program optimization feedback from &lt;x&gt;
+  -g     Generate debug information <span class=o>(</span>default format <span class=k>for</span> target<span class=o>)</span>
+      -gc        Generate checks <span class=k>for</span> pointers <span class=o>(</span>experimental, only available on some targets, might generate <span class=nb>false</span> positive<span class=o>)</span>
+      -gh        Use heaptrace unit <span class=o>(</span><span class=k>for</span> memory leak/corruption debugging<span class=o>)</span>
+      -gl        Use line info unit <span class=o>(</span>show more info with backtraces<span class=o>)</span>
+      -gm        Generate Microsoft CodeView debug information <span class=o>(</span>experimental<span class=o>)</span>
+      -go&lt;x&gt;     Set debug information options
+         -godwarfsets  Enable DWARF <span class=s1>&#39;set&#39;</span> <span class=nb>type</span> debug information <span class=o>(</span>breaks gdb &lt; <span class=m>6</span>.5<span class=o>)</span>
+         -gostabsabsincludes  Store absolute/full include file paths <span class=k>in</span> Stabs
+*** press enter ***
+         -godwarfmethodclassprefix  Prefix method names <span class=k>in</span> DWARF with class name
+         -godwarfcpp  Simulate C++ debug information <span class=k>in</span> DWARF
+         -godwarfomflinnum  Generate line number information <span class=k>in</span> OMF LINNUM records <span class=k>in</span> MS LINK format <span class=k>in</span> addition to the DWARF debug information <span class=o>(</span>Open Watcom Debugger/Linker compatibility<span class=o>)</span>
+      -gp        Preserve <span class=k>case</span> <span class=k>in</span> stabs symbol names
+      -gs        Generate Stabs debug information
+      -gt        Trash <span class=nb>local</span> variables <span class=o>(</span>to detect uninitialized uses<span class=p>;</span> multiple <span class=s1>&#39;t&#39;</span> changes the trashing value<span class=o>)</span>
+      -gv        Generates programs traceable with Valgrind
+      -gw        Generate DWARFv2 debug information <span class=o>(</span>same as -gw2<span class=o>)</span>
+      -gw2       Generate DWARFv2 debug information
+      -gw3       Generate DWARFv3 debug information
+      -gw4       Generate DWARFv4 debug information <span class=o>(</span>experimental<span class=o>)</span>
+  -i     Information
+      -iD        Return compiler date
+      -iSO       Return compiler OS
+      -iSP       Return compiler host processor
+      -iTO       Return target OS
+      -iTP       Return target processor
+      -iV        Return short compiler version
+*** press enter ***
+      -iW        Return full compiler version
+      -ia        Return list of supported ABI targets
+      -ic        Return list of supported CPU instruction sets
+      -if        Return list of supported FPU instruction sets
+      -ii        Return list of supported inline assembler modes
+      -io        Return list of supported optimizations
+      -ir        Return list of recognized compiler and RTL features
+      -it        Return list of supported targets
+      -iu        Return list of supported microcontroller types
+      -iw        Return list of supported whole program optimizations
+  -I&lt;x&gt;  Add &lt;x&gt; to include path
+  -k&lt;x&gt;  Pass &lt;x&gt; to the linker
+  -l     Write logo
+  -M&lt;x&gt;  Set language mode to &lt;x&gt;
+      -Mfpc      Free Pascal dialect <span class=o>(</span>default<span class=o>)</span>
+      -Mobjfpc   FPC mode with Object Pascal support
+      -Mdelphi   Delphi <span class=m>7</span> compatibility mode
+      -Mtp       TP/BP <span class=m>7</span>.0 compatibility mode
+      -Mmacpas   Macintosh Pascal dialects compatibility mode
+      -Miso      ISO <span class=m>7185</span> mode
+      -Mextendedpascal ISO <span class=m>10206</span> mode
+      -Mdelphiunicode Delphi <span class=m>2009</span> and later compatibility mode
+*** press enter ***
+  -n     Do not <span class=nb>read</span> the default config files
+  -o&lt;x&gt;  Change the name of the executable produced to &lt;x&gt;
+  -O&lt;x&gt;  Optimizations:
+      -O-        Disable optimizations
+      -O1        Level <span class=m>1</span> optimizations <span class=o>(</span>quick and debugger friendly<span class=o>)</span>
+      -O2        Level <span class=m>2</span> optimizations <span class=o>(</span>-O1 + quick optimizations<span class=o>)</span>
+      -O3        Level <span class=m>3</span> optimizations <span class=o>(</span>-O2 + slow optimizations<span class=o>)</span>
+      -O4        Level <span class=m>4</span> optimizations <span class=o>(</span>-O3 + optimizations which might have unexpected side effects<span class=o>)</span>
+      -Oa&lt;x&gt;<span class=o>=</span>&lt;y&gt; Set alignment
+      -Oo<span class=o>[</span>NO<span class=o>]</span>&lt;x&gt; Enable or disable optimizations<span class=p>;</span> see fpc -i or fpc -io <span class=k>for</span> possible values
+      -Op&lt;x&gt;     Set target cpu <span class=k>for</span> optimizing<span class=p>;</span> see fpc -i or fpc -ic <span class=k>for</span> possible values
+      -OW&lt;x&gt;     Generate whole-program optimization feedback <span class=k>for</span> optimization &lt;x&gt;<span class=p>;</span> see fpc -i or fpc -iw <span class=k>for</span> possible values
+      -Ow&lt;x&gt;     Perform whole-program optimization &lt;x&gt;<span class=p>;</span> see fpc -i or fpc -iw <span class=k>for</span> possible values
+      -Os        Optimize <span class=k>for</span> size rather than speed
+  -pg    Generate profile code <span class=k>for</span> gprof <span class=o>(</span>defines FPC_PROFILE<span class=o>)</span>
+  -P&lt;x&gt;  Target CPU / compiler related options:
+      -PB        Show default compiler binary
+*** press enter ***
+      -PP        Show default target cpu
+      -P&lt;x&gt;      Set target CPU <span class=o>(</span>aarch64,arm,avr,i386,i8086,jvm,m68k,mips,mipsel,powerpc,powerpc64,sparc,x86_64<span class=o>)</span>
+  -R&lt;x&gt;  Assembler reading style:
+      -Rdefault  Use default assembler <span class=k>for</span> target
+      -Ratt      Read AT<span class=p>&amp;</span>T style assembler
+      -Rintel    Read Intel style assembler
+  -S&lt;x&gt;  Syntax options:
+      -S2        Same as -Mobjfpc
+      -Sc        Support operators like C <span class=o>(</span>*<span class=o>=</span>,+<span class=o>=</span>,/<span class=o>=</span> and -<span class=o>=)</span>
+      -Sa        Turn on assertions
+      -Sd        Same as -Mdelphi
+      -Se&lt;x&gt;     Error options. &lt;x&gt; is a combination of the following:
+         &lt;n&gt; : Compiler halts after the &lt;n&gt; errors <span class=o>(</span>default is <span class=m>1</span><span class=o>)</span>
+         w : Compiler also halts after warnings
+         n : Compiler also halts after notes
+         h : Compiler also halts after hints
+      -Sf        Enable certain features <span class=k>in</span> compiler and RTL<span class=p>;</span> see fpc -i or fpc -ir <span class=k>for</span> possible values<span class=o>)</span>
+      -Sg        Enable LABEL and GOTO <span class=o>(</span>default <span class=k>in</span> -Mtp and -Mdelphi<span class=o>)</span>
+      -Sh        Use reference counted strings <span class=o>(</span>ansistring by default<span class=o>)</span> instead of shortstrings
+*** press enter ***
+      -Si        Turn on inlining of procedures/functions declared as <span class=s2>&quot;inline&quot;</span>
+      -Sj        Allows typed constants to be writeable <span class=o>(</span>default <span class=k>in</span> all modes<span class=o>)</span>
+      -Sk        Load fpcylix unit
+      -SI&lt;x&gt;     Set interface style to &lt;x&gt;
+         -SIcom     COM compatible interface <span class=o>(</span>default<span class=o>)</span>
+         -SIcorba   CORBA compatible interface
+      -Sm        Support macros like C <span class=o>(</span>global<span class=o>)</span>
+      -So        Same as -Mtp
+      -Sr        Transparent file names <span class=k>in</span> ISO mode
+      -Ss        Constructor name must be init <span class=o>(</span>destructor must be <span class=k>done</span><span class=o>)</span>
+      -Sv        Support vector processing <span class=o>(</span>use CPU vector extensions <span class=k>if</span> available<span class=o>)</span>
+      -Sx        Enable exception keywords <span class=o>(</span>default <span class=k>in</span> Delphi/ObjFPC modes<span class=o>)</span>
+      -Sy        @&lt;pointer&gt; returns a typed pointer, same as <span class=nv>$T</span>+
+  -s     Do not call assembler and linker
+      -sh        Generate script to link on host
+      -st        Generate script to link on target
+      -sr        Skip register allocation phase <span class=o>(</span>use with -alr<span class=o>)</span>
+  -T&lt;x&gt;  Target operating system:
+      -Taros     AROS
+      -Tdarwin   Darwin/Mac OS X
+      -Tdragonfly DragonFly BSD
+*** press enter ***
+      -Tembedded Embedded
+      -Tfreebsd  FreeBSD
+      -Tiphonesim iPhoneSimulator
+      -Tlinux    Linux
+      -Tnetbsd   NetBSD
+      -Topenbsd  OpenBSD
+      -Tsolaris  Solaris
+      -Twin64    Win64 <span class=o>(</span><span class=m>64</span> bit Windows systems<span class=o>)</span>
+  -u&lt;x&gt;  Undefines the symbol &lt;x&gt;
+  -U     Unit options:
+      -Un        Do not check where the unit name matches the file name
+      -Ur        Generate release unit files <span class=o>(</span>never automatically recompiled<span class=o>)</span>
+      -Us        Compile a system unit
+  -v&lt;x&gt;  Be verbose. &lt;x&gt; is a combination of the following letters:
+      e : Show errors <span class=o>(</span>default<span class=o>)</span>       <span class=m>0</span> : Show nothing <span class=o>(</span>except errors<span class=o>)</span>
+      w : Show warnings               u : Show unit info
+      n : Show notes                  t : Show tried/used files
+      h : Show hints                  c : Show conditionals
+      i : Show general info           d : Show debug info
+      l : Show linenumbers            r : Rhide/GCC compatibility mode
+      s : Show <span class=nb>time</span> stamps            q : Show message numbers
+      a : Show everything             x : Show info about invoked tools
+*** press enter ***
+      b : Write file names messages   p : Write tree.log with parse tree
+          with full path              v : Write fpcdebug.txt with
+      z : Write output to stderr          lots of debugging info
+      m&lt;x&gt;,&lt;y&gt; : Do not show messages numbered &lt;x&gt; and &lt;y&gt;
+  -V&lt;x&gt;  Append <span class=s1>&#39;-&lt;x&gt;&#39;</span> to the used compiler binary name <span class=o>(</span>e.g. <span class=k>for</span> version<span class=o>)</span>
+  -W&lt;x&gt;  Target-specific options <span class=o>(</span>targets<span class=o>)</span>
+      -WA        Specify native <span class=nb>type</span> application <span class=o>(</span>Windows<span class=o>)</span>
+      -Wb        Create a bundle instead of a library <span class=o>(</span>Darwin<span class=o>)</span>
+      -WB        Create a relocatable image <span class=o>(</span>Windows<span class=o>)</span>
+      -WB&lt;x&gt;     Set image base to &lt;x&gt; <span class=o>(</span>Windows<span class=o>)</span>
+      -WC        Specify console <span class=nb>type</span> application <span class=o>(</span>Windows<span class=o>)</span>
+      -WD        Use DEFFILE to <span class=nb>export</span> functions of DLL or EXE <span class=o>(</span>Windows<span class=o>)</span>
+      -We        Use external resources <span class=o>(</span>Darwin<span class=o>)</span>
+      -WG        Specify graphic <span class=nb>type</span> application <span class=o>(</span>Windows<span class=o>)</span>
+      -Wi        Use internal resources <span class=o>(</span>Darwin<span class=o>)</span>
+      -WI        Turn on/off the usage of import sections <span class=o>(</span>Windows<span class=o>)</span>
+      -WM&lt;x&gt;     Minimum Mac OS X deployment version: <span class=m>10</span>.4, <span class=m>10</span>.5.1, ... <span class=o>(</span>Darwin<span class=o>)</span>
+      -WN        Do not generate relocation code, needed <span class=k>for</span> debugging <span class=o>(</span>Windows<span class=o>)</span>
+      -WP&lt;x&gt;     Minimum iOS deployment version: <span class=m>8</span>.0, <span class=m>8</span>.0.2, ... <span class=o>(</span>iphonesim<span class=o>)</span>
+      -WR        Generate relocation code <span class=o>(</span>Windows<span class=o>)</span>
+*** press enter ***
+      -WX        Enable executable stack <span class=o>(</span>Linux<span class=o>)</span>
+  -X     Executable options:
+      -X9        Generate linkerscript <span class=k>for</span> GNU Binutils ld older than version <span class=m>2</span>.19.1 <span class=o>(</span>Linux<span class=o>)</span>
+      -Xc        Pass --shared/-dynamic to the linker <span class=o>(</span>BeOS, Darwin, FreeBSD, Linux<span class=o>)</span>
+      -Xd        Do not search default library path <span class=o>(</span>sometimes required <span class=k>for</span> cross-compiling when not using -XR<span class=o>)</span>
+      -Xe        Use external linker
+      -Xf        Substitute pthread library name <span class=k>for</span> linking <span class=o>(</span>BSD<span class=o>)</span>
+      -Xg        Create debuginfo <span class=k>in</span> a separate file and add a debuglink section to executable
+      -XD        Try to link units dynamically      <span class=o>(</span>defines FPC_LINK_DYNAMIC<span class=o>)</span>
+      -Xi        Use internal linker
+      -XLA       Define library substitutions <span class=k>for</span> linking
+      -XLO       Define order of library linking
+      -XLD       Exclude default order of standard libraries
+      -Xm        Generate link map
+      -XM&lt;x&gt;     Set the name of the <span class=s1>&#39;main&#39;</span> program routine <span class=o>(</span>default is <span class=s1>&#39;main&#39;</span><span class=o>)</span>
+      -Xn        Use target system native linker instead of GNU ld <span class=o>(</span>Solaris, AIX<span class=o>)</span>
+      -Xp&lt;x&gt;     First search <span class=k>for</span> the compiler binary <span class=k>in</span> the directory &lt;x&gt;
+*** press enter ***
+      -XP&lt;x&gt;     Prepend the binutils names with the prefix &lt;x&gt;
+      -Xr&lt;x&gt;     Set the linker<span class=err>&#39;</span>s rlink-path to &lt;x&gt; <span class=o>(</span>needed <span class=k>for</span> cross compile, see the ld manual <span class=k>for</span> more information<span class=o>)</span> <span class=o>(</span>BeOS, Linux<span class=o>)</span>
+      -XR&lt;x&gt;     Prepend &lt;x&gt; to all linker search paths <span class=o>(</span>BeOS, Darwin, FreeBSD, Linux, Mac OS, Solaris<span class=o>)</span>
+      -Xs        Strip all symbols from executable
+      -XS        Try to link units statically <span class=o>(</span>default, defines FPC_LINK_STATIC<span class=o>)</span>
+      -Xt        Link with static libraries <span class=o>(</span>-static is passed to linker<span class=o>)</span>
+      -Xv        Generate table <span class=k>for</span> Virtual Entry calls
+      -XV        Use VLink as external linker       <span class=o>(</span>default on Amiga, MorphOS<span class=o>)</span>
+      -XX        Try to smartlink units             <span class=o>(</span>defines FPC_LINK_SMART<span class=o>)</span>
+
+  -?     Show this <span class=nb>help</span>
+  -h     Shows this <span class=nb>help</span> without waiting
+</code></pre></div> </td></tr></table> Hmm panjang hehehe. but ini artinya fpc sudah siap untuk digunakan.</p> <hr> <div class=md-source-date> <small> Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">January 26, 2021</span> </small> </div> <h2 id=__comments>Comments</h2> <div id=disqus_thread></div> <script>var disqus_config=function(){this.page.url="https://kenzanin.github.io/lang/pascal/install/",this.page.identifier="/lang/pascal/install/"};window.addEventListener("load",function(){var e=document,i=e.createElement("script");i.src="//kenzanin-github-io.disqus.com/embed.js",i.setAttribute("data-timestamp",+new Date),(e.head||e.body).appendChild(i)})</script> </article> </div> </div> </main> <footer class=md-footer> <div class=md-footer-nav> <nav class="md-footer-nav__inner md-grid" aria-label=Footer> <a href=../intro/ class="md-footer-nav__link md-footer-nav__link--prev" rel=prev> <div class="md-footer-nav__button md-icon"> <svg xmlns=http://www.w3.org/2000/svg viewbox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg> </div> <div class=md-footer-nav__title> <div class=md-ellipsis> <span class=md-footer-nav__direction> Previous </span> Intro </div> </div> </a> <a href=../textIde/ class="md-footer-nav__link md-footer-nav__link--next" rel=next> <div class=md-footer-nav__title> <div class=md-ellipsis> <span class=md-footer-nav__direction> Next </span> Text IDE </div> </div> <div class="md-footer-nav__button md-icon"> <svg xmlns=http://www.w3.org/2000/svg viewbox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg> </div> </a> </nav> </div> <div class="md-footer-meta md-typeset"> <div class="md-footer-meta__inner md-grid"> <div class=md-footer-copyright> <div class=md-footer-copyright__highlight> Copyright &copy; 2021 [Suka Isnaini] </div> Made with <a href=https://squidfunk.github.io/mkdocs-material/ target=_blank rel=noopener> Material for MkDocs </a> </div> <div class=md-footer-social> <a href=https://telegram.me/kenzanin target=_blank rel=noopener title=kenzanin class=md-footer-social__link> <svg xmlns=http://www.w3.org/2000/svg viewbox="0 0 496 512"><path d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm121.8 169.9l-40.7 191.8c-3 13.6-11.1 16.9-22.4 10.5l-62-45.7-29.9 28.8c-3.3 3.3-6.1 6.1-12.5 6.1l4.4-63.1 114.9-103.8c5-4.4-1.1-6.9-7.7-2.5l-142 89.4-61.2-19.1c-13.3-4.2-13.6-13.3 2.8-19.7l239.1-92.2c11.1-4 20.8 2.7 17.2 19.5z"/></svg> </a> <a href=https://wa.link/q6rses target=_blank rel=noopener title="suka isnaini" class=md-footer-social__link> <svg xmlns=http://www.w3.org/2000/svg viewbox="0 0 448 512"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg> </a> <a href=mailto:kenzanin@gmail.com target=_blank rel=noopener title=kenzanin class=md-footer-social__link> <svg xmlns=http://www.w3.org/2000/svg viewbox="0 0 512 512"><path d="M256 8C118.941 8 8 118.919 8 256c0 137.059 110.919 248 248 248 48.154 0 95.342-14.14 135.408-40.223 12.005-7.815 14.625-24.288 5.552-35.372l-10.177-12.433c-7.671-9.371-21.179-11.667-31.373-5.129C325.92 429.757 291.314 440 256 440c-101.458 0-184-82.542-184-184S154.542 72 256 72c100.139 0 184 57.619 184 160 0 38.786-21.093 79.742-58.17 83.693-17.349-.454-16.91-12.857-13.476-30.024l23.433-121.11C394.653 149.75 383.308 136 368.225 136h-44.981a13.518 13.518 0 00-13.432 11.993l-.01.092c-14.697-17.901-40.448-21.775-59.971-21.775-74.58 0-137.831 62.234-137.831 151.46 0 65.303 36.785 105.87 96 105.87 26.984 0 57.369-15.637 74.991-38.333 9.522 34.104 40.613 34.103 70.71 34.103C462.609 379.41 504 307.798 504 232 504 95.653 394.023 8 256 8zm-21.68 304.43c-22.249 0-36.07-15.623-36.07-40.771 0-44.993 30.779-72.729 58.63-72.729 22.292 0 35.601 15.241 35.601 40.77 0 45.061-33.875 72.73-58.161 72.73z"/></svg> </a> </div> </div> </div> </footer> </div> <script src=../../../assets/javascripts/vendor.93c04032.min.js></script> <script src=../../../assets/javascripts/bundle.83e5331e.min.js></script><script id=__lang type=application/json>{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script> <script>
         app = initialize({
           base: "../../..",
           features: [],
