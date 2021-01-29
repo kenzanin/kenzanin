@@ -20,7 +20,7 @@ plugins:
   - search
   - macros:
       include_yaml:
-        - "docs/lang/clang/variables.yml"
+        #- "docs/lang/clang/variables.yml"
         #- "docs/mcs51/variables.yml"
       include_dir: docs
   - git-revision-date-localized
@@ -68,3 +68,7 @@ markdown_extensions:
   - pymdownx.inlinehilite
 
 copyright: Copyright &copy; 2021 [Suka Isnaini]
+
+google_analytics:
+  - G-D8BVSGRXC8
+  - auto

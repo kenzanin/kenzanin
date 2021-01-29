@@ -1,5 +1,6 @@
 nav:
     - Intro: intro.md
     - Install: install.md
+    - Text IDE: textIde.md
     - Lazarus IDE: ide.md
     - Contoh: contoh

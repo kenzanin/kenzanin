@@ -5,3 +5,6 @@ nav:
     - Resistor Color: resistorColor.md
     - Resistor Color Duo: resistorColorDuo.md
     - Resistor Color Trio: resistorColorTrio.md
+    - Isogram: isogram.md
+    - Acronym: acronym.md
+    - Word Count: wordCount.md

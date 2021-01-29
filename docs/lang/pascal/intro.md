@@ -1,6 +1,8 @@
 # Pascal
 
-![fp-ide](img/fpIde.webp)
+|![fp-ide](img/fpIde.webp)|
+|:--:|
+|FPC IDE|
 
 ## Intro 
 
