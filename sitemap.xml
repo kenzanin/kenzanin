@@ -1,239 +1,251 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
      <loc>https://kenzanin.github.io/</loc>
-     <lastmod>2021-02-08</lastmod>
+     <lastmod>2021-02-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kenzanin.github.io/about/</loc>
-     <lastmod>2021-02-08</lastmod>
+     <lastmod>2021-02-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kenzanin.github.io/frameworks/arduino/intro/</loc>
-     <lastmod>2021-02-08</lastmod>
+     <lastmod>2021-02-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kenzanin.github.io/frameworks/arduino/install/</loc>
-     <lastmod>2021-02-08</lastmod>
+     <lastmod>2021-02-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kenzanin.github.io/frameworks/arduino/setupProject/</loc>
-     <lastmod>2021-02-08</lastmod>
+     <lastmod>2021-02-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kenzanin.github.io/frameworks/arduino/contoh/blink/</loc>
-     <lastmod>2021-02-08</lastmod>
+     <lastmod>2021-02-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kenzanin.github.io/frameworks/arduino/contoh/digitalReadSerial/</loc>
-     <lastmod>2021-02-08</lastmod>
+     <lastmod>2021-02-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kenzanin.github.io/frameworks/platformio/intro/</loc>
-     <lastmod>2021-02-08</lastmod>
+     <lastmod>2021-02-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kenzanin.github.io/microController/mcs51/intro/</loc>
-     <lastmod>2021-02-08</lastmod>
+     <lastmod>2021-02-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kenzanin.github.io/microController/mcs51/hardware/</loc>
-     <lastmod>2021-02-08</lastmod>
+     <lastmod>2021-02-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kenzanin.github.io/microController/mcs51/software/</loc>
-     <lastmod>2021-02-08</lastmod>
+     <lastmod>2021-02-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kenzanin.github.io/microController/mcs51/sdcc/</loc>
-     <lastmod>2021-02-08</lastmod>
+     <lastmod>2021-02-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kenzanin.github.io/microController/mcs51/helloWorldAsm/</loc>
-     <lastmod>2021-02-08</lastmod>
+     <lastmod>2021-02-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kenzanin.github.io/microController/mcs51/helloWorldC/</loc>
-     <lastmod>2021-02-08</lastmod>
+     <lastmod>2021-02-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kenzanin.github.io/microController/mcs51/contoh/countDownLedAsm/</loc>
-     <lastmod>2021-02-08</lastmod>
+     <lastmod>2021-02-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kenzanin.github.io/microController/mcs51/contoh/countDownLed/</loc>
-     <lastmod>2021-02-08</lastmod>
+     <lastmod>2021-02-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kenzanin.github.io/microController/mcs51/contoh/countUpLedAsm/</loc>
-     <lastmod>2021-02-08</lastmod>
+     <lastmod>2021-02-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kenzanin.github.io/microController/mcs51/contoh/countUpLed/</loc>
-     <lastmod>2021-02-08</lastmod>
+     <lastmod>2021-02-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kenzanin.github.io/linux/artix/pengenalan/</loc>
-     <lastmod>2021-02-08</lastmod>
+     <lastmod>2021-02-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kenzanin.github.io/linux/artix/percona/</loc>
-     <lastmod>2021-02-08</lastmod>
+     <lastmod>2021-02-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kenzanin.github.io/lang/clang/intro/</loc>
-     <lastmod>2021-02-08</lastmod>
+     <lastmod>2021-02-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kenzanin.github.io/lang/clang/install/</loc>
-     <lastmod>2021-02-08</lastmod>
+     <lastmod>2021-02-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kenzanin.github.io/lang/clang/contoh/helloWorld/</loc>
-     <lastmod>2021-02-08</lastmod>
+     <lastmod>2021-02-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kenzanin.github.io/lang/clang/contoh/armstrongNumber/</loc>
-     <lastmod>2021-02-08</lastmod>
+     <lastmod>2021-02-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kenzanin.github.io/lang/clang/contoh/darts/</loc>
-     <lastmod>2021-02-08</lastmod>
+     <lastmod>2021-02-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kenzanin.github.io/lang/clang/contoh/resistorColor/</loc>
-     <lastmod>2021-02-08</lastmod>
+     <lastmod>2021-02-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kenzanin.github.io/lang/clang/contoh/resistorColorDuo/</loc>
-     <lastmod>2021-02-08</lastmod>
+     <lastmod>2021-02-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kenzanin.github.io/lang/clang/contoh/resistorColorTrio/</loc>
-     <lastmod>2021-02-08</lastmod>
+     <lastmod>2021-02-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kenzanin.github.io/lang/clang/contoh/isogram/</loc>
-     <lastmod>2021-02-08</lastmod>
+     <lastmod>2021-02-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kenzanin.github.io/lang/clang/contoh/acronym/</loc>
-     <lastmod>2021-02-08</lastmod>
+     <lastmod>2021-02-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kenzanin.github.io/lang/clang/contoh/wordCount/</loc>
-     <lastmod>2021-02-08</lastmod>
+     <lastmod>2021-02-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kenzanin.github.io/lang/clang/contoh/pangram/</loc>
-     <lastmod>2021-02-08</lastmod>
+     <lastmod>2021-02-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kenzanin.github.io/lang/clang/contoh/gigasecond/</loc>
-     <lastmod>2021-02-08</lastmod>
+     <lastmod>2021-02-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kenzanin.github.io/lang/clang/contoh/spaceAges/</loc>
-     <lastmod>2021-02-08</lastmod>
+     <lastmod>2021-02-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kenzanin.github.io/lang/clang/contoh/meetup/</loc>
-     <lastmod>2021-02-08</lastmod>
+     <lastmod>2021-02-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kenzanin.github.io/lang/clang/contoh/hamming/</loc>
-     <lastmod>2021-02-08</lastmod>
+     <lastmod>2021-02-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kenzanin.github.io/lang/clang/contoh/rnaTranscription/</loc>
-     <lastmod>2021-02-08</lastmod>
+     <lastmod>2021-02-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kenzanin.github.io/lang/clang/contoh/nucleotideCount/</loc>
-     <lastmod>2021-02-08</lastmod>
+     <lastmod>2021-02-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kenzanin.github.io/lang/clang/contoh/grains/</loc>
-     <lastmod>2021-02-08</lastmod>
+     <lastmod>2021-02-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kenzanin.github.io/lang/clang/contoh/leap/</loc>
-     <lastmod>2021-02-08</lastmod>
+     <lastmod>2021-02-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kenzanin.github.io/lang/clang/contoh/beerSong/</loc>
-     <lastmod>2021-02-08</lastmod>
+     <lastmod>2021-02-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kenzanin.github.io/lang/clang/contoh/raindrops/</loc>
-     <lastmod>2021-02-08</lastmod>
+     <lastmod>2021-02-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kenzanin.github.io/lang/cpp/intro/</loc>
-     <lastmod>2021-02-08</lastmod>
+     <lastmod>2021-02-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kenzanin.github.io/lang/cpp/install/</loc>
-     <lastmod>2021-02-08</lastmod>
+     <lastmod>2021-02-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kenzanin.github.io/lang/cpp/contoh/helloWorld/</loc>
-     <lastmod>2021-02-08</lastmod>
+     <lastmod>2021-02-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kenzanin.github.io/lang/cpp/contoh/isogram/</loc>
-     <lastmod>2021-02-08</lastmod>
+     <lastmod>2021-02-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kenzanin.github.io/lang/cpp/contoh/leap/</loc>
-     <lastmod>2021-02-08</lastmod>
+     <lastmod>2021-02-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kenzanin.github.io/lang/cpp/contoh/reverseString/</loc>
-     <lastmod>2021-02-08</lastmod>
+     <lastmod>2021-02-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kenzanin.github.io/lang/cpp/contoh/gigasecond/</loc>
-     <lastmod>2021-02-08</lastmod>
+     <lastmod>2021-02-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kenzanin.github.io/lang/cpp/contoh/hamming/</loc>
-     <lastmod>2021-02-08</lastmod>
+     <lastmod>2021-02-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kenzanin.github.io/lang/cpp/contoh/etl/</loc>
-     <lastmod>2021-02-08</lastmod>
+     <lastmod>2021-02-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kenzanin.github.io/lang/cpp/contoh/grains/</loc>
-     <lastmod>2021-02-08</lastmod>
+     <lastmod>2021-02-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kenzanin.github.io/lang/cpp/contoh/spaceAge/</loc>
-     <lastmod>2021-02-08</lastmod>
+     <lastmod>2021-02-09</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://kenzanin.github.io/lang/cpp/contoh/rnaTranscription/</loc>
+     <lastmod>2021-02-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kenzanin.github.io/lang/cpp/contoh/nucleoideCount/</loc>
-     <lastmod>2021-02-08</lastmod>
+     <lastmod>2021-02-09</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://kenzanin.github.io/lang/cpp/contoh/raindrops/</loc>
+     <lastmod>2021-02-09</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://kenzanin.github.io/lang/cpp/contoh/grains/</loc>
+     <lastmod>2021-02-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kenzanin.github.io/lang/pascal/intro/</loc>
-     <lastmod>2021-02-08</lastmod>
+     <lastmod>2021-02-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kenzanin.github.io/lang/pascal/install/</loc>
-     <lastmod>2021-02-08</lastmod>
+     <lastmod>2021-02-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kenzanin.github.io/lang/pascal/textIde/</loc>
-     <lastmod>2021-02-08</lastmod>
+     <lastmod>2021-02-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kenzanin.github.io/lang/pascal/ide/</loc>
-     <lastmod>2021-02-08</lastmod>
+     <lastmod>2021-02-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kenzanin.github.io/lang/pascal/contoh/helloWorld/</loc>
-     <lastmod>2021-02-08</lastmod>
+     <lastmod>2021-02-09</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
